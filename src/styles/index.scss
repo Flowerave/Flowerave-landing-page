@@ -50,6 +50,7 @@ image, .image {
   background-position: center;
   border-radius: .5em;
 }
+
 /*
     Отключает наложение на элементы стилей системы: тени, border-radius и т.д.
     Применяется для input (но не всех), textarea, и т.д.
@@ -80,6 +81,8 @@ input[type=text], input[type=submit], textarea{
 
 /* Components */
 @import "../componentns/Button/style.scss";                         // 🔄 Button
+@import "../componentns/Button/ButtonSecondary/style.scss";         // 🔄 Button Secondary
+
 /* 1 lvl */
 @import "../componentns/Navigation/style.scss";                     // ✅ Navigation Bar
 

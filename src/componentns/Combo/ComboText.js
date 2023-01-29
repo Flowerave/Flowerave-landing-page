@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../Button/Button';
+import ButtonSecondary from '../Button/ButtonSecondary/ButtonSecondary';
 
 function ComboText(props) {
   return (
@@ -8,7 +9,7 @@ function ComboText(props) {
         <p className='description'>{props.description}</p>
         <div className='row'>
             <Button body={props.primaryBtn} />
-            <Button body={props.secondaryBtn} />
+            <ButtonSecondary body={props.secondaryBtn} />
         </div>
     </div>
   )
