@@ -17,6 +17,9 @@
     .navMobile {
         display: none; // Web
     }
+    .navigationView {
+        display: none; // Web
+    }
 
     .logoMain {
         cursor: pointer;
@@ -25,6 +28,8 @@
         display: flex;
         align-items: center;
         gap: 1em;
+
+        font-size: .8em;
 
 
         .dot {
@@ -55,8 +60,14 @@
 /* Mobile */
 @media (max-width: 480px) {
     .nav{
-    padding: 0 1em;
-    height: var(--web-header-main);
+        padding: 0 1em;
+        height: var(--web-header-main);
+
+    .navigationView {
+        display: block; // Mobile
+
+        position: absolute;
+    }
 
     .navMobile {
         display: block; // Mobile
