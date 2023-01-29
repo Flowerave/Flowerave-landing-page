@@ -13,7 +13,6 @@
         height: 100%;
         object-fit: cover;
         opacity: .3;
-        filter: blur(0em);
     }
     .content {
         position: absolute;
@@ -42,17 +41,10 @@
     .sectionMain {
         height: calc(100vh - env(safe-area-inset-bottom));
 
-        .video {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            opacity: .3;
-            filter: blur(0em);
-        }
+        .video {}
         .content {
             padding: 0 1em;
-            gap: 2em;
+            gap: 1em;
 
             .row {
                 width: 100%;
