@@ -1,10 +1,10 @@
 .sectionArtist {
-    width: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 4em;
 
     .videoCover {
         width: 100%;
@@ -13,28 +13,11 @@
     }
     .content {
         margin: 0 auto;
-        padding: 8em 2em 4em 2em;
+        padding: 4em 2em;
 
         display: flex;
         flex-direction: column;
         gap: 2em;
-
-        .headerline,
-        .description {
-            text-align: center;
-            margin: 0 auto;
-            width: 75%;
-            max-width: 1200px;
-        }
-        .row {
-            display: flex;
-            justify-content: center;
-            gap: 1em;
-
-            width: 100%;
-
-            margin-top: 2em; // ⬆️ Button top
-        }
     }
 }
 
@@ -44,12 +27,7 @@
         height: 100vh !important;
     }
     .content {
-        padding: 4em 1em !important;
-        overflow: hidden !important;
-    }
-    .headerline,
-    .description {
-        width: 100% !important;
+        padding: 1em;
     }
 
 }

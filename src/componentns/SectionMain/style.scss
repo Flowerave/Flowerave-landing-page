@@ -31,13 +31,14 @@
 
         .row {
             gap: 1em;
+
+            .button {
+                width: fit-content;
+            }
         }
 
         .headerline {
             max-width: 77%;
-        }
-        .button {
-            width: fit-content;
         }
     }
 }
@@ -56,14 +57,14 @@
             .row {
                 width: 100%;
                 justify-content: space-between;
+
+                .button {
+                    width: fill;
+                }
             }
 
             .headerline {
                 max-width: 100%;
-                margin: 0;
-            }
-            .button {
-                width: 100%;
                 margin: 0;
             }
         }
