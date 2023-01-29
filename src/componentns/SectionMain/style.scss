@@ -37,7 +37,10 @@
 /* Mobile */
 @media (max-width: 480px) {
     .sectionMain {
-    
+    top: -70px;
+	padding-bottom: 70px;
+	transform: translateY(70px);
+
         .video {
             position: absolute;
             width: 100%;
