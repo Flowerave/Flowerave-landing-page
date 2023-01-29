@@ -10,24 +10,31 @@ body {
   color: var(--txt-primary-color);
   background: var(--bg-primary-background);
   font-family: 'Inter', sans-serif;
-
-  ul {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
-    color: var(--txt-primary-color);
-  }
-  button {
-    border: none;
-    outline: none;
-    background: none;
-  }
-  /* Cursor element */
-  a, button {
-    cursor: pointer;
-  }
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
 }
+html {
+  height: -webkit-fill-available;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--txt-primary-color);
+}
+button {
+  border: none;
+  outline: none;
+  background: none;
+}
+/* Cursor element */
+a, button {
+  cursor: pointer;
+}
+
 /* Image Center Positin */
 image, .image {
   object-fit: cover;
