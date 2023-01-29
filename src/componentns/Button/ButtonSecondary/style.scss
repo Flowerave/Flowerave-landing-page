@@ -1,9 +1,8 @@
 .buttonSecondary {
     padding: 1.5em 2.5em;
     border-radius: 1.2em;
-
     border: 1px solid var(--accent);
-
+    white-space: nowrap;
     background: none;
 
     .text {
