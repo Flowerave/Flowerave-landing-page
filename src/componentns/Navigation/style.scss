@@ -77,8 +77,6 @@
         width: 100vw;
         height: 120vh;
         background: var(--layer-1);
-
-        transition: .3s;
     }
 
     .navMobile {
@@ -93,11 +91,15 @@
         background: var(--white);
 
         z-index: 10000;
+        transition: var(--element-in);
 
-         &:active {
-            content: 'hello';
-            background: var(--accent);
-         }
+        &:hover {
+            background: var(--lightgray);
+        }
+
+        &:active {
+            transform: scale(.95);
+        }
     }
 
     .socialLink {
