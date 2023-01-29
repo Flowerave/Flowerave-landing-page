@@ -59,5 +59,24 @@
             width: 100%;
             color: var(--txt-secondary-color);
         }
+
+        .roseMetro {
+            margin-left: -1em;
+
+            padding: 2em 0;
+            gap: .5em;
+
+            .row {
+                gap: 1em;
+
+                .rose {
+                    max-width: 200px;
+                    max-height: 256px;
+
+                    min-width: 158px;
+                    min-height: 158px;
+                }
+            }
+        }
     }
 }
