@@ -52,10 +52,12 @@ function NavigationBar(props) {
         {/* 👇️ show elements on click */}
         {isShown && (
             <div className='navigationMobileView'>
-                IS SHOW
 
                 <video className="tube" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
                     <source src="/tube.mp4" type="video/mp4" />
+                </video>
+                <video className="tube" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
+                    <source src="/tube1.mp4" type="video/mp4" />
                 </video>
             </div>
         )}

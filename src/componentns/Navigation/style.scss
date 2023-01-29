@@ -64,6 +64,10 @@
         padding: 0 1em;
         height: var(--web-header-main);
 
+        .logoMain {
+            z-index: 10000;
+        }
+
     .navigationView {
         display: block; // Mobile
 
@@ -83,10 +87,23 @@
             background-position: center right;
             object-position: center right;
             object-fit: cover;
-    
+
             right: 0;
-            bottom: -8em;
-    
+            bottom: 2em;
+
+            width: 80px;
+            height: 240px;
+        }
+
+        .tube1 {
+            position: absolute;
+            background-position: center right;
+            object-position: center right;
+            object-fit: cover;
+
+            left: 0;
+            top: 6em;
+
             width: 80px;
             height: 240px;
         }
