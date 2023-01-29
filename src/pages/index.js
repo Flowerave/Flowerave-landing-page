@@ -18,8 +18,8 @@ export default function Home() {
       <SectionMain />
       <SectionRose />
       <SectionService />
-      <SectionArtist />
       <SectionNFT />
+      <SectionArtist />
 
       {/* Подвал сайта */}
       <SectionFooter />
