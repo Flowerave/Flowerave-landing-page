@@ -53,6 +53,10 @@ function NavigationBar(props) {
         {isShown && (
             <div className='navigationMobileView'>
                 IS SHOW
+
+                <video className="tube" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
+                    <source src="/tube.mp4" type="video/mp4" />
+                </video>
             </div>
         )}
 

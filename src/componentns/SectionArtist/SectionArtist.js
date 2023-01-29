@@ -15,9 +15,6 @@ function SectionArtist() {
                 secondaryBtn="Кнопка"
             />
         </div>
-        <video className="tube" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
-            <source src="/tube.mp4" type="video/mp4" />
-        </video>
     </div>
   )
 }

@@ -8,19 +8,6 @@
 
     position: relative;
 
-    .tube {
-        position: absolute;
-        background-position: center right;
-        object-position: center right;
-        object-fit: cover;
-
-        right: 0;
-        bottom: -8em;
-
-        width: 80px;
-        height: 240px;
-    }
-
     .videoCover {
         width: 100%;
         height: 80vh;

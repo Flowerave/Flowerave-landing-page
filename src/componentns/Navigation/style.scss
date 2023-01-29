@@ -77,6 +77,19 @@
         width: 100vw;
         height: 120vh;
         background: var(--layer-1);
+
+        .tube {
+            position: absolute;
+            background-position: center right;
+            object-position: center right;
+            object-fit: cover;
+    
+            right: 0;
+            bottom: -8em;
+    
+            width: 80px;
+            height: 240px;
+        }
     }
 
     .navMobile {
