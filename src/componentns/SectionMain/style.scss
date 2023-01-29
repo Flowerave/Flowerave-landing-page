@@ -40,6 +40,7 @@
 /* Mobile */
 @media (max-width: 480px) {
     .sectionMain {
+        height: calc(100vh - env(safe-area-inset-bottom));
 
         .video {
             position: absolute;
@@ -52,15 +53,12 @@
         .content {
             padding: 0 1em;
             gap: 2em;
-            bottom: -70px;
-	        padding-bottom: -70px;
-	        transform: translateY(-70px);
 
             .row {
                 width: 100%;
                 justify-content: space-between;
             }
-    
+
             .headerline {
                 max-width: 100%;
             }
