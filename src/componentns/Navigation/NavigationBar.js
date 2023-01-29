@@ -23,7 +23,9 @@ function NavigationBar() {
             </div>
         </div>
 
-        <button className='navMobile'></button>
+        <button className='navMobile'>
+            <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m16 0 13.856 8v16L16 32 2.144 24V8L16 0z" fill="#A2FA32"/><path fill="#000" d="M8 12h16v1H8zM8 15.5h16v1H8zM8 19h16v1H8z"/></svg>
+        </button>
     </nav>
   )
 }
