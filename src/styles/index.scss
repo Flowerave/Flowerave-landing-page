@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  line-height: var(--line-height-normal);
+  color: var(--txt-primary-color);
+  background: var(--bg-primary-background);
+  font-family: 'Inter', sans-serif;
+
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: var(--txt-primary-color);
+  }
+  button {
+    border: none;
+    outline: none;
+    background: none;
+  }
+  /* Cursor element */
+  a, button {
+    cursor: pointer;
+  }
+}
+/* Image Center Positin */
+image, .image {
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  border-radius: .5em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Google fonts -> */ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@import "./color.scss";                                             // ✅ Color
+@import "./typography.scss";                                        // 🔄 Typography
+@import "./animation.scss";                                         // 🔄 Animation
+@import "./size.scss";                                              // 🔄 Size
+
+/* Page */
+@import "../pages/style/index.scss";                                // 🔄 Index
+
+/* Components */
+@import "../componentns/Button/style.scss";                         // 🔄 Button
+/* 1 lvl */
+@import "../componentns/Navigation/style.scss";                     // ✅ Navigation Bar
+
+  /* 2 lvl */
+  @import "../componentns/SectionMain/style.scss";                  // 💎 Section Main
+  @import "../componentns/SectionRose/style.scss";                  // 🌹 Section Rose
+  @import "../componentns/SectionService/style.scss";               // 📂 Section Service
+  @import "../componentns/SectionNFT/style.scss";                   // 🎟 Section NFT
+
+
+  @import "../componentns/SectionFooter/style.scss";                // 🔄 Main Footer
+
+    /* 3 lvl */
+    @import "../componentns/SectionService/Card/style.scss";        // 🔄 Card for Service

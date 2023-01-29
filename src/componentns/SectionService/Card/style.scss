@@ -1,0 +1,27 @@
+/* Карточка услуги */
+.card_Service {
+    padding: 2em 1em;
+    text-align: center;
+    transition: var(--element-in);
+
+    &:hover {}
+
+    .image {
+        width: 33vh;
+        height: 33vh;
+        background: var(--layer-2);
+        margin-bottom: 1.75em;
+    }
+    .title ,
+    .description,
+    .caption {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+    .title {}
+    .description {
+        color: var(--txt-secondary-color);
+    }
+    .caption {}
+}

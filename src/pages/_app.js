@@ -1,5 +1,9 @@
-import '@/styles/globals.css'
+import NavigationBar from '@/componentns/Navigation/NavigationBar'
+import '@/styles/index.scss'
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+      // Main components
+      <Component {...pageProps} />
+  )
 }

@@ -1,0 +1,28 @@
+.sectionRose {
+    padding: 4em 0 2em 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+
+    .row {
+        overflow-x: hidden;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+
+        .video {
+            max-width: 300px;
+            max-height: 300px;
+
+            transition: var(--element-in);
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+}

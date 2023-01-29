@@ -1,0 +1,48 @@
+.nav{
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    top: 0;
+    padding: 0 2em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: var(--web-header-main);
+
+    z-index: 1000;
+
+    .logoMain {
+        cursor: pointer;
+    }
+    .socialLink {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+
+        .dot {
+            width: 1px;
+            height: 1em;
+            border-radius: 1em;
+            background: var(--darkgray);
+        }
+
+        .socialLink_Media,
+        .socialLink_Develop {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+
+            a {
+                font-weight: 500;
+                color: var(--txt-secondary-color);
+
+                &:hover {
+                    color: var(--link-primary-color);
+                }
+            }
+        }
+    }
+}

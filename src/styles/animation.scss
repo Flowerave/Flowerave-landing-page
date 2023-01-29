@@ -1,0 +1,7 @@
+:root {
+    --element-in: .3s;
+}
+
+button, a {
+    transition: var(--element-in);
+}

@@ -1,0 +1,112 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --gray: #D1D1D1;
+    --lightgray: #d7d7d7; 
+    --darkgray: #A1A0A0;
+
+    --accent: #A2FA32;
+    --accent-hover: #1B280A;
+    --accent-active: A2FA32;
+    --accent-focus: pink;
+
+    --blur: #00000090;
+    --layer-1: #000;
+    --layer-2: #111;
+    --layer-3: #222;                                  // Button Secondary
+    --layer-4: #333;
+    --layer-5: #444;
+
+    /* Separator */
+    --border-primary-border:#555;
+    --border-secondary-border:#777;
+
+    /* Background */
+    --bg-blur-background:           var(--blur);        // For background-blur
+    --bg-primary-background:        var(--layer-1);
+    --bg-secondary-background:      var(--layer-2);
+    --bg-tertiary-background:       var(--layer-3);
+    --bg-quaternary-background:     var(--layer-4);
+    --bg-quinary-background:        var(--layer-5);
+
+    /* Text */
+    --txt-primary-color:            var(--white);
+    --txt-secondary-color:          var(--gray);
+    --txt-tertiary-color:           var(--darkgray);
+
+    /* Button */
+    --btn-primary-background:       var(--accent);
+    --btn-secondary-background:     var(--layer-4);
+
+    /* Text button */
+    --btn-primary-color:            var(--black);
+    --btn-secondary-color:          var(--white);
+
+    /* Link */
+    --link-primary-color:           var(--accent);
+    --link-secondary-color:         var(--lightgray);
+
+}
+
+body {
+    color: var(--txt-primary-color);
+    background: var(--bg-primary-background);
+}
+
+/* Button */
+.btn_Primary {
+    color: var(--btn-primary-color);
+    background: var(--btn-primary-background);
+
+    &:hover {
+        color: var(--accent-hover);
+    }
+    &:active {
+        color: var(--accent-active);
+    }
+    &:focus {
+        color: var(--accent-focus);
+    }
+}
+.btn_Secondary {
+    color: var(--btn-secondary-color);
+    background: var(--btn-secondary-background);
+
+    &:hover {
+        color: var(--accent-hover);
+    }
+    &:active {
+        color: var(--accent-active);
+    }
+    &:focus {
+        color: var(--accent-focus);
+    }
+}
+
+/* Link */
+.link_Primary {
+    color: var(--link-primary-color);
+
+    &:hover {
+        color: var(--accent-hover);
+    }
+    &:active {
+        color: var(--accent-active);
+    }
+    &:focus {
+        color: var(--accent-focus);
+    }
+}
+.link_Secondary {
+    color: var(--link-primary-color);
+
+    &:hover {
+        color: var(--accent-hover);
+    }
+    &:active {
+        color: var(--accent-active);
+    }
+    &:focus {
+        color: var(--accent-focus);
+    }
+}

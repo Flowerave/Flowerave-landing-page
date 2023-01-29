@@ -1,0 +1,33 @@
+main {
+    padding: 0;
+
+    .example {
+        display: flex;
+        gap: .5em;
+
+        .example-card {
+            width: 100px;
+            height: 100px;
+        }
+        .card-1 {
+            background: var(--bg-primary-background);
+            border: 1px solid var(--border-primary-border);
+        }
+        .card-2 {
+            background: var(--bg-secondary-background);
+            border: 1px solid var(--border-primary-border);
+        }
+        .card-3 {
+            background: var(--bg-tertiary-background);
+            border: 1px solid var(--border-primary-border);
+        }
+        .card-4 {
+            background: var(--bg-quaternary-background);
+            border: 1px solid var(--border-primary-border);
+        }
+        .card-5 {
+            background: var(--bg-quinary-background);
+            border: 1px solid var(--border-primary-border);
+        }
+    }
+}
