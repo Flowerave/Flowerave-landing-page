@@ -3,11 +3,13 @@
     padding: 1em 2em;
     background: var(--layer-2);
 
-    margin-top: 25vh;
+    margin-top: 5vh;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .tonLogo {}
 
     ul {
         li{
@@ -32,7 +34,10 @@
 /* Mobile */
 @media (max-width: 480px) {
     .sectionFooter {
-        margin-top: 5vh;
+        margin-top: 0;
+        justify-content: center;
+
+        .tonLogo {}
 
         ul {
             display: none;
