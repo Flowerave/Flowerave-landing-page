@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 function SectionMain() {
   return (
     <div className='sectionMain'>
-        <video className='video' autoPlay loop >
+        <video className='video' autoPlay='true' loop='true' muted='true' >
             <source src="/video.mp4" />
         </video>
         <div className='content'>
