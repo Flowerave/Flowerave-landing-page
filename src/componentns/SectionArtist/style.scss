@@ -39,7 +39,7 @@
 /* Mobile */
 @media (max-width: 480px) {
     .videoCover {
-        height: 100vh;
+        height: 100vh !important;
     }
     .content {
         padding: 4em 1em !important;
