@@ -28,11 +28,9 @@ transition: var(--element-in);
 ```
 Main Animation Elements
 
-
-###Section Page
-
 SectionMain
-SectionRose + SectionNFT
+SectionRose
+SectionNFT
 SectionService
 SectionArtist
 

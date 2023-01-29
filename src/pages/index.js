@@ -22,7 +22,7 @@ export default function Home() {
       <SectionArtist  />
 
       {/* FOOTER */}
-      <SectionFooter />
+      <SectionFooter  />
     </main>
   )
 }
