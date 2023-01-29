@@ -11,17 +11,17 @@ import SectionNFT from '@/componentns/SectionNFT/SectionNFT';
 export default function Home() {
   return (
     <main>
-      {/* Навигация */}
+      {/* NAVIGATION */}
       <NavigationBar />
 
-      {/* Секции */}
-      <SectionMain />
-      <SectionRose />
+      {/* SECTION */}
+      <SectionMain    />
+      <SectionRose    />
+      <SectionNFT     />
       <SectionService />
-      <SectionNFT />
-      <SectionArtist />
+      <SectionArtist  />
 
-      {/* Подвал сайта */}
+      {/* FOOTER */}
       <SectionFooter />
     </main>
   )
