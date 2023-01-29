@@ -44,7 +44,7 @@
 /* Mobile */
 @media (max-width: 480px) {
     .sectionMain {
-        height: calc(100vh - env(safe-area-inset-bottom));
+        height: calc(env(safe-area-inset-bottom));
         height: -webkit-fill-available;
 
         .video {}
