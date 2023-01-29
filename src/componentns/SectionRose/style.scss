@@ -1,7 +1,7 @@
 .sectionRose {
     padding: 2em;
 
-    // background: var(--attention-background); // Develop
+    // background: var(--attention-background); // DEVELOP
 
     .headerline {
         margin: 1em 0;
@@ -13,6 +13,8 @@
         line-height: 130%;
         width: 75%;
         max-width: 800px;
+
+        margin-bottom: 2em; // ⬇️ MARGIN BOTTOM
     }
 
     .roseMetro {
