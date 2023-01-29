@@ -27,9 +27,11 @@
         justify-content: center;
         align-items: center;
 
+        gap: 1em;
+
         .row {
             overflow-x: hidden;
-            gap: 2em;
+            gap: 4em;
 
             .rose {
                 width: 33vw;

@@ -34,42 +34,42 @@ function SectionRose() {
             <div className='row'>
                 {/* Rose 6 */}
                 <video className="rose" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
-                    <source src="/rose1.mp4" type="video/mp4" />
+                    <source src="/rose6.mp4" type="video/mp4" />
                 </video>
                 {/* Rose 7 */}
                 <video className="rose" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
-                    <source src="/rose1.mp4" type="video/mp4" />
+                    <source src="/rose7.mp4" type="video/mp4" />
                 </video>
                 {/* Rose 8 */}
                 <video className="rose" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
-                    <source src="/rose1.mp4" type="video/mp4" />
+                    <source src="/rose8.mp4" type="video/mp4" />
                 </video>
                 {/* Rose 9 */}
                 <video className="rose" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
-                    <source src="/rose1.mp4" type="video/mp4" />
+                    <source src="/rose9.mp4" type="video/mp4" />
                 </video>
             </div>
             {/* Row 3 */}
             <div className='row'>
                 {/* Rose 10 */}
                 <video className="rose" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
-                    <source src="/rose1.mp4" type="video/mp4" />
+                    <source src="/rose8.mp4" type="video/mp4" />
                 </video>
                 {/* Rose 11 */}
                 <video className="rose" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
-                    <source src="/rose1.mp4" type="video/mp4" />
+                    <source src="/rose5.mp4" type="video/mp4" />
                 </video>
                 {/* Rose 12 */}
                 <video className="rose" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
-                    <source src="/rose1.mp4" type="video/mp4" />
+                    <source src="/rose2.mp4" type="video/mp4" />
                 </video>
                 {/* Rose 13 */}
                 <video className="rose" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
-                    <source src="/rose1.mp4" type="video/mp4" />
+                    <source src="/rose6.mp4" type="video/mp4" />
                 </video>
                 {/* Rose 14 */}
                 <video className="rose" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
-                    <source src="/rose1.mp4" type="video/mp4" />
+                    <source src="/rose4.mp4" type="video/mp4" />
                 </video>
             </div>
         </div>
