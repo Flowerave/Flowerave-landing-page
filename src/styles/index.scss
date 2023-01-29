@@ -44,6 +44,13 @@ image, .image {
   background-position: center;
   border-radius: .5em;
 }
+/*
+    Отключает наложение на элементы стилей системы: тени, border-radius и т.д.
+    Применяется для input (но не всех), textarea, и т.д.
+*/
+input[type=text], input[type=submit], textarea{
+	-webkit-appearance: none;
+} 
 
 .row {
   display: flex;

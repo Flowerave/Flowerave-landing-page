@@ -63,6 +63,6 @@
 /* iOS */
 @supports (-webkit-touch-callout: none) {
     .content {
-        top: calc(0 - env(safe-area-inset-bottom));
+        top: calc(0 - env(safe-area-inset-bottom)) !important;
     }
 }
