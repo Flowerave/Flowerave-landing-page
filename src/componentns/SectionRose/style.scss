@@ -1,12 +1,27 @@
 .sectionRose {
-    padding: 2em;
+    padding: 4em 2em;
 
-    background: var(--attention-background); // Develop
+    // background: var(--attention-background); // Develop
+
+    .headerline {
+        margin: 1em 0;
+        width: 75%;
+    }
+    .description {
+        width: 50%;
+    }
 }
 
 /* Mobile */
 @media (max-width: 480px) {
     .sectionRose {
         padding: 1em;
+
+        .headerline {
+            width: 100%;
+        }
+        .description {
+            width: 100%;
+        }
     }
 }
