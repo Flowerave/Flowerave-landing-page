@@ -74,7 +74,7 @@
         position: absolute;
     }
     .navigationMobileView {
-        position: relative;
+        position: absolute;
         overflow: hidden;
         top: -10vh;
         left: 0;
@@ -83,7 +83,7 @@
         background: var(--layer-1);
 
         .tube {
-            position: absolute;
+            position: fixed;
             background-position: center right;
             object-position: center right;
             object-fit: cover;
@@ -96,7 +96,7 @@
         }
 
         .tube1 {
-            position: absolute;
+            position: fixed;
             background-position: center right;
             object-position: center right;
             object-fit: cover;
