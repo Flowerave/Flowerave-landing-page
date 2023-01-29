@@ -64,8 +64,10 @@
         padding: 0 1em;
         height: var(--web-header-main);
 
-        .logoMain {
-            z-index: 10000;
+        a {
+            .logoMain {
+                z-index: 10000;
+            }
         }
 
     .navigationView {
