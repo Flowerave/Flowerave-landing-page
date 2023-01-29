@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 function SectionArtist() {
   return (
     <div id="sectionArtist" className='sectionArtist'>
-        <video className='video' loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
+        <video className='videoCover' loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
             <source src="/video1.mp4" />
         </video>
         <div className='content'>
