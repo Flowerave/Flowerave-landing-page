@@ -27,3 +27,13 @@ Open [http://localhost:3000](http://localhost:3000/) with your browser to see th
 transition: var(--element-in);
 ```
 Main Animation Elements
+
+
+###Section Page
+
+SectionMain
+SectionRose + SectionNFT
+SectionService
+SectionArtist
+
+SectionFooter
