@@ -59,10 +59,14 @@
     height: var(--web-header-main);
 
     .navMobile {
-        display: block; // Mobile 
+        display: block; // Mobile
+        cursor: pointer;
 
         width: 32px;
         height: 32px;
+
+        border-radius: 32px;
+        background: var(--white);
     }
 
     .socialLink {
