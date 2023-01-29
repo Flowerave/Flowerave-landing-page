@@ -3,7 +3,7 @@ import Button from '../Button/Button';
 
 function SectionArtist() {
   return (
-    <div className='sectionNFT'>
+    <div className='SectionArtist'>
         <video className='video' autoPlay loop >
             <source src="/video1.mp4" />
         </video>

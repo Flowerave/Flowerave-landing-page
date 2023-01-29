@@ -1,4 +1,4 @@
-.sectionNFT {
+.SectionArtist {
     width: 100%;
 
     display: flex;
@@ -34,4 +34,17 @@
             margin-top: 2em; // ⬆️ Button top
         }
     }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .content {
+        padding: 2em 1em !important;
+        overflow: hidden !important;
+    }
+    .headerline,
+    .description {
+        width: 100% !important;
+    }
+
 }
