@@ -11,7 +11,7 @@
     --accent-focus: pink;
 
     --аttention-color:#FF6E30;
-    
+
     --blur: #00000090;
     --layer-1: #000;
     --layer-2: #111;
@@ -24,29 +24,29 @@
     --border-secondary-border:#777;
 
     /* Background */
-    --bg-blur-background:           var(--blur);        // For background-blur
-    --bg-primary-background:        var(--layer-1);
-    --bg-secondary-background:      var(--layer-2);
-    --bg-tertiary-background:       var(--layer-3);
-    --bg-quaternary-background:     var(--layer-4);
-    --bg-quinary-background:        var(--layer-5);
+    --bg-blur-background            :     var(--blur);        // For background-blur
+    --bg-primary-background         :     var(--layer-1);
+    --bg-secondary-background       :     var(--layer-2);
+    --bg-tertiary-background        :     var(--layer-3);
+    --bg-quaternary-background      :     var(--layer-4);
+    --bg-quinary-background         :     var(--layer-5);
 
     /* Text */
-    --txt-primary-color:            var(--white);
-    --txt-secondary-color:          var(--gray);
-    --txt-tertiary-color:           var(--darkgray);
+    --txt-primary-color             :     var(--white);
+    --txt-secondary-color           :     var(--gray);
+    --txt-tertiary-color            :     var(--darkgray);
 
     /* Button */
-    --btn-primary-background:       var(--accent);
-    --btn-secondary-background:     var(--layer-4);
+    --btn-primary-background        :     var(--accent);
+    --btn-secondary-background      :     var(--layer-4);
 
     /* Text button */
-    --btn-primary-color:            var(--black);
-    --btn-secondary-color:          var(--white);
+    --btn-primary-color             :     var(--black);
+    --btn-secondary-color           :     var(--white);
 
     /* Link */
-    --link-primary-color:           var(--accent);
-    --link-secondary-color:         var(--lightgray);
+    --link-primary-color            :     var(--accent);
+    --link-secondary-color          :     var(--lightgray);
 
 }
 

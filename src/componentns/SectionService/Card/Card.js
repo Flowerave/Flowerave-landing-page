@@ -9,14 +9,9 @@ function Card(props) {
 
   return (
         <div className="card_Service">
-            <Image
-                className='image'
-                loader={myLoader}
-                src={props.image}
-                alt={props.alt}
-                width={500}
-                height={500}
-            />
+            <video className='video image' autoPlay loop >
+                <source src="/empty.mp4" />
+            </video>
             <h3 className='title'>{ props.title }</h3>
             <p className='body'>{ props.body }</p>
             <p className='description'>{ props.description }</p>

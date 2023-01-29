@@ -1,10 +1,12 @@
+import React from 'react';
+
 import NavigationBar from '@/componentns/Navigation/NavigationBar';
 import SectionFooter from '@/componentns/SectionFooter/SectionFooter';
 import SectionMain from '@/componentns/SectionMain/SectionMain';
-import SectionNFT from '@/componentns/SectionNFT/SectionNFT';
+import SectionArtist from '@/componentns/SectionArtist/SectionArtist';
 import SectionRose from '@/componentns/SectionRose/SectionRose';
 import SectionService from '@/componentns/SectionService/SectionService';
-import React from 'react';
+import SectionNFT from '@/componentns/SectionNFT/SectionNFT';
 
 export default function Home() {
   return (
@@ -13,6 +15,7 @@ export default function Home() {
       <SectionMain />
       <SectionRose />
       <SectionService />
+      <SectionArtist />
       <SectionNFT />
       <SectionFooter />
     </main>

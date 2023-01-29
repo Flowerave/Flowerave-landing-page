@@ -46,3 +46,15 @@
         }
     }
 }
+
+/* Mobile */
+@media (max-width: 480px) {
+    .nav{
+    padding: 0 1em;
+    height: var(--web-header-main);
+    
+    .socialLink {
+        display: none;
+    }
+}
+}

@@ -76,3 +76,39 @@ h6 {
     font-size: .8em;
     margin-bottom: .5em;
 }
+@media (max-width: 480px) {
+    .headerline1 {
+        font-size: 2em;
+    }
+    .headerline2 {
+        font-size: 1.5em;
+    }
+    .headerline3 {
+        font-size: 1em;
+    }
+    .headerline4 {
+        font-size: 1.5em;
+    }
+    .headerline5 {
+        font-size: 1.2em;
+    }
+    .headerline6 {
+        font-size: 1em;
+    }
+    .title {
+        font-size: 1em;
+        margin-bottom: 1em !important;
+    }
+    .body {
+        font-size: 1em;
+        margin-bottom: .5em;
+    }
+    .description {
+        font-size: .8em;
+        margin-bottom: .5em;
+    }
+    .caption {
+        font-size: .7em;
+        margin-bottom: .5em;
+    }
+}
