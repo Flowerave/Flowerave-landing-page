@@ -4,7 +4,22 @@
     justify-content: center;
     align-items: center;
 
-    margin-bottom: 4em;
+    margin-bottom: 12em;
+
+    position: relative;
+
+    .tube {
+        position: absolute;
+        background-position: center right;
+        object-position: center right;
+        object-fit: cover;
+
+        right: 0;
+        bottom: -8em;
+
+        width: 80px;
+        height: 240px;
+    }
 
     .videoCover {
         width: 100%;
