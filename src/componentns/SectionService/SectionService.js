@@ -16,7 +16,7 @@ function SectionService() {
         <Card
             id="2"
             image="cover1.jpg"
-            title="Data security & storage"
+            title="Data Security & Storage"
             body=""
             description="Blockchain allows control and tracking for all tickets, further ensuring no sales above the limit or capacity."
             caption=""
@@ -25,7 +25,7 @@ function SectionService() {
         <Card
             id="3"
             image="cover.jpg"
-            title="Convenience & experience"
+            title="Convenience & Experience"
             body=""
             description="Flowerave Tickets are much more convenient to travel with, as they are stored online."
             caption=""
@@ -34,7 +34,7 @@ function SectionService() {
         <Card
             id="4"
             image="cover1.jpg"
-            title="Ecology & nature protection"
+            title="Ecology & Nature Protection"
             body=""
             description="Flowerave Tickets are cost-efficient, as multiple currencies are accepted, providing more convenience for global customers."
             caption=""
@@ -43,7 +43,7 @@ function SectionService() {
         <Card
             id="5"
             image="cover.jpg"
-            title="Friends & communication"
+            title="Friends & Communication"
             body=""
             description="Flowerave Tickets are cost-efficient, as multiple currencies are accepted, providing more convenience for global customers."
             caption=""
@@ -52,7 +52,7 @@ function SectionService() {
         <Card
             id="6"
             image="cover1.jpg"
-            title="Tools for organizers"
+            title="Tools for Organizers"
             body=""
             description="Flowerave Tickets are cost-efficient, as multiple currencies are accepted, providing more convenience for global customers."
             caption=""
