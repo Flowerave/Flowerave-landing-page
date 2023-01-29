@@ -56,9 +56,6 @@ function NavigationBar(props) {
                 <video className="tube" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
                     <source src="/tube.mp4" type="video/mp4" />
                 </video>
-                <video className="tube1" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
-                    <source src="/tube1.mp4" type="video/mp4" />
-                </video>
             </div>
         )}
 

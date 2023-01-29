@@ -99,20 +99,6 @@
             height: 240px;
             transition: var(--element-in);
         }
-
-        .tube1 {
-            position: fixed;
-            background-position: center left;
-            object-position: center left;
-            object-fit: cover;
-
-            left: 0;
-            top: 6em;
-
-            width: 60px;
-            height: 160px;
-            transition: var(--element-in);
-        }
     }
 
     .navMobile {
