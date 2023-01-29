@@ -81,6 +81,7 @@ input[type=text], input[type=submit], textarea{
 
 /* Components */
 @import "../componentns/Button/style.scss";                         // 🔄 Button
+@import "../componentns/Button/ButtonPrimary/ButtonPrimary.scss";           // 🔄 Button Primary
 @import "../componentns/Button/ButtonSecondary/style.scss";         // 🔄 Button Secondary
 
 /* 1 lvl */

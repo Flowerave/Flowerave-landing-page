@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../Button/Button';
+import ButtonPrimary from '../Button/ButtonPrimary/ButtonPrimary';
 import ButtonSecondary from '../Button/ButtonSecondary/ButtonSecondary';
 
 function SectionMain() {
@@ -13,7 +13,7 @@ function SectionMain() {
         <div className='content'>
             <h1 className='headerline headerline2'>Unlock Your Possibilities with Flowerave: TON Blockchain Technology and NFTs!</h1>
             <div className='row'>
-                <Button body="Marketplace" />
+                <ButtonPrimary body="Marketplace" />
                 <ButtonSecondary body="Go Beta" />
 
             </div>
