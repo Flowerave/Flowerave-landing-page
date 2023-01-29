@@ -34,8 +34,12 @@
             .rose {
                 width: 33vw;
                 height: 33vw;
+
                 max-width: 256px;
                 max-height: 256px;
+
+                min-width: 200px;
+                min-height: 200px;
             }
         }
     }

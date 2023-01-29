@@ -27,7 +27,7 @@ function SectionRose() {
                 </video>
                 {/* Rose 5 */}
                 <video className="rose" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
-                    <source src="/rose1.mp4" type="video/mp4" />
+                    <source src="/rose5.mp4" type="video/mp4" />
                 </video>
             </div>
             {/* Row 2 */}
