@@ -24,13 +24,3 @@
     }
     .caption {}
 }
-
-/* Mobile */
-@media (max-width: 480px) {
-    .card_Service {
-        .image {
-            width: 50vh;
-            height: 50vh;
-        }
-    }
-}
