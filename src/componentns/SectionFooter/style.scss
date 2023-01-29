@@ -9,7 +9,16 @@
     justify-content: space-between;
     align-items: center;
 
-    .tonLogo {}
+    .tonLogo {
+        transition: var(--element-in);
+
+        &:hover {
+            opacity: .6;;
+        }
+        &:active {
+            opacity: .8;;
+        }
+    }
 
     ul {
         li{
@@ -34,6 +43,7 @@
 /* Mobile */
 @media (max-width: 480px) {
     .sectionFooter {
+        padding: 1.75em 1em;
         margin-top: 0;
         justify-content: center;
 
