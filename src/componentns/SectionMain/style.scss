@@ -35,7 +35,7 @@
             align-items: center;
 
             .button {
-                width: fit-content;
+                width: fill;
             }
         }
 
@@ -58,7 +58,7 @@
 
             .row {
                 width: 100%;
-                justify-content: space-between;
+                justify-content: start;
 
                 .button {
                     width: fill;
