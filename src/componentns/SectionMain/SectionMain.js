@@ -11,7 +11,7 @@ function SectionMain() {
             <h1 className='headerline headerline1'>Unlock Your Possibilities with Flowerave: TON Blockchain Technology and NFTs!</h1>
             <div className='row'>
                 <Button body="Marketplace" />
-                <Button body="Apply for Beta Testing" />
+                <Button body="Go Beta" />
             </div>
         </div>
     </div>
