@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 function SectionMain() {
   return (
     <div id='sectionMain' className='sectionMain'>
-        <video className="video" webkit-playsinline playsinline autoplay="autoplay" muted defaultMuted loop>
+        <video className="video" loop={true} muted={true} autoplay={true} playsinline={true}>
             <source src="/video.mp4" type="video/mp4" />
         </video>
         <div className='content'>
