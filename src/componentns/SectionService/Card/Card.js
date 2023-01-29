@@ -9,7 +9,7 @@ function Card(props) {
 
   return (
         <div className="card_Service">
-            <video className='video image' autoPlay loop >
+            <video className='video image' loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
                 <source src="/empty.mp4" />
             </video>
             <h3 className='title'>{ props.title }</h3>

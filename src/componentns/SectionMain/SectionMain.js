@@ -8,7 +8,7 @@ function SectionMain() {
             <source src="/video.mp4" type="video/mp4" />
         </video>
         <div className='content'>
-            <h1 className='headerline headerline1'>Unlock Your Possibilities with Flowerave: TON Blockchain Technology and NFTs!</h1>
+            <h1 className='headerline headerline2'>Unlock Your Possibilities with Flowerave: TON Blockchain Technology and NFTs!</h1>
             <div className='row'>
                 <Button body="Marketplace" />
                 <Button body="Go Beta" />
