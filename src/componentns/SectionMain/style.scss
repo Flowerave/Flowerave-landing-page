@@ -58,10 +58,13 @@
 
             .row {
                 width: 100%;
-                justify-content: start;
+                justify-content: space-between;
 
                 .button {
                     width: fill;
+                }
+                .buttonPrimary {
+                    width: 100%;
                 }
             }
 
