@@ -5,12 +5,39 @@
 
     .headerline {
         margin: 1em 0;
+        line-height: 130%;
         width: 75%;
         max-width: 1200px;
     }
-    .description {
+    .body {
+        line-height: 130%;
         width: 75%;
-        max-width: 600px;
+        max-width: 800px;
+    }
+
+    .roseMetro {
+        overflow-x: hidden;
+        width: 100vw;
+        margin-left: -2em;
+
+        padding: 4em 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .row {
+            overflow-x: hidden;
+            gap: 2em;
+
+            .rose {
+                width: 33vw;
+                height: 33vw;
+                max-width: 256px;
+                max-height: 256px;
+            }
+        }
     }
 }
 
@@ -22,7 +49,7 @@
         .headerline {
             width: 100%;
         }
-        .description {
+        .body {
             width: 100%;
             color: var(--txt-secondary-color);
         }
