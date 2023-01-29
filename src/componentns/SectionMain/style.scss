@@ -22,8 +22,11 @@
     }
     .content {
         position: absolute;
-        padding: 0 2em;
-        bottom: 2em;
+        padding: 0 2em 2em 2em;
+        bottom: 0;
+
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 100%);
 
         display: flex;
         flex-direction: column;
@@ -52,9 +55,9 @@
 
         .video {}
         .content {
-            padding: 0 1em;
+            padding: 0 1em 1em 1em;
             gap: 1.75em;
-            bottom: calc(env(safe-area-inset-bottom) + 1em);
+            bottom: calc(env(safe-area-inset-bottom));
 
             .row {
                 width: 100%;
