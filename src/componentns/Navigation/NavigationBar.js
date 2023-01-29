@@ -3,7 +3,25 @@ import Link from 'next/link';
 
 function NavigationBar(props) {
 
-  return (
+    const [isShown, setIsShown] = useState(false);
+
+    const handleClick = event => {
+    // 👇️ toggle shown state
+    setIsShown(current => !current);
+
+    // 👇️ or simply set it to true
+    // setIsShown(true);
+    }
+
+    function Box() {
+        return (
+            <div className='navMobile'>
+                <h2>dasd</h2>
+            </div>
+        );
+    }
+
+    return (
     <nav className='nav'>
 
         <Link href={'/'}>
@@ -24,6 +42,19 @@ function NavigationBar(props) {
                 <Link href={'https://apple.com'} target="_blank">Notion</Link>
             </div>
         </div>
+
+        <button
+            className='navMobile'
+            onClick={handleClick}>
+            Click
+            </button>
+
+        {/* 👇️ show elements on click */}
+        {isShown && (
+            <div className='navigationMobileView'>
+                IS SHOW
+            </div>
+        )}
 
 
     </nav>

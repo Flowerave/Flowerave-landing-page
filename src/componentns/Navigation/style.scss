@@ -69,6 +69,14 @@
 
         position: absolute;
     }
+    .navigationMobileView {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: red;
+    }
 
     .navMobile {
         display: block; // Mobile
@@ -79,6 +87,8 @@
 
         border-radius: 32px;
         background: var(--white);
+
+        z-index: 10000;
     }
 
     .socialLink {
