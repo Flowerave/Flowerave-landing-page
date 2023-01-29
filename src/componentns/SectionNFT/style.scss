@@ -34,8 +34,8 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: 2fr;
-        grid-column-gap: 0;
-        grid-row-gap: 4em;
+        grid-column-gap: 2em;
+        grid-row-gap: 0em;
 
         .content {
             padding: 1em !important;
