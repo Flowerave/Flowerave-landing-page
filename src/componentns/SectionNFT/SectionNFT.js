@@ -3,7 +3,7 @@ import React from 'react'
 function SectionNFT() {
   return (
     <div id='sectionNFT' className='sectionNFT'>
-        SectionNFT
+        <span className='inWork'>Section NFT</span>
     </div>
   )
 }

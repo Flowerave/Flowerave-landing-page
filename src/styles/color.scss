@@ -10,7 +10,7 @@
     --accent-active: A2FA32;
     --accent-focus: pink;
 
-    --аttention-color:#FF6E30;
+    --attention-color: #FF6E30;
 
     --blur: #00000090;
     --layer-1: #000;
@@ -111,4 +111,12 @@ body {
     &:focus {
         color: var(--accent-focus);
     }
+}
+
+.inWork {
+    font-size: .5em;
+    padding: .25em .5em;
+    border-radius: .5em;
+    color: var(--attention-color);
+    border: 1px solid var(--attention-color);
 }
