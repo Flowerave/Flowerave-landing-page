@@ -11,10 +11,9 @@ body {
   background: var(--bg-primary-background);
   font-family: 'Inter', sans-serif;
   min-height: 100vh;
-  /* mobile viewport bug fix */
-  min-height: -webkit-fill-available;
 
   overflow-x: hidden;
+  
 }
 html {
   height: -webkit-fill-available;
