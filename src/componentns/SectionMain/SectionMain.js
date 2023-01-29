@@ -15,7 +15,7 @@ function SectionMain() {
             <h1 className='headerline headerline2'>Unlock Your Possibilities with Flowerave: TON Blockchain Technology and NFTs!</h1>
             <div className='row'>
                 <Link href="https://getgems.io" target="_blank">
-                    <ButtonPrimary body="Marketplace" />
+                    <ButtonPrimary body="Buy NFT" />
                 </Link>
                 <Link href={'https://t.me/demo_flowerave_bot'} target="_blank">
                     <ButtonSecondary body="Go Beta" />
