@@ -5,3 +5,12 @@
 button, a {
     transition: var(--element-in);
 }
+
+@keyframes fadeInCenter {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 30%;
+    }
+}
