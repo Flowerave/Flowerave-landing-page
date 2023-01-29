@@ -3,12 +3,12 @@
 
     // background: var(--attention-background); // Develop
 
-    .body {
+    .headerline {
         margin: 1em 0;
         width: 75%;
     }
-    .description {
-        width: 50%;
+    .body {
+        width: 75%;
     }
 }
 
@@ -17,10 +17,10 @@
     .sectionRose {
         padding: 4em 1em;
 
-        .body {
+        .headerline {
             width: 100%;
         }
-        .description {
+        .body {
             width: 100%;
         }
     }
