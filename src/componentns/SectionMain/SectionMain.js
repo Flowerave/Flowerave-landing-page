@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import ButtonPrimary from '../Button/ButtonPrimary/ButtonPrimary';
 import ButtonSecondary from '../Button/ButtonSecondary/ButtonSecondary';
@@ -13,9 +14,12 @@ function SectionMain() {
         <div className='content'>
             <h1 className='headerline headerline2'>Unlock Your Possibilities with Flowerave: TON Blockchain Technology and NFTs!</h1>
             <div className='row'>
-                <ButtonPrimary body="Marketplace" />
-                <ButtonSecondary body="Go Beta" />
-
+                <Link href="https://getgems.io" target="_blank">
+                    <ButtonPrimary body="Marketplace" />
+                </Link>
+                <Link href={'https://t.me/demo_flowerave_bot'} target="_blank">
+                    <ButtonSecondary body="Go Beta" />
+                </Link>
             </div>
         </div>
     </div>
