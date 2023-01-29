@@ -14,7 +14,7 @@ function NavigationBar() {
             <div className='socialLink_Media'>
                 <Link href={'https://apple.com'} target="_blank">Instagram</Link>
                 <Link href={'https://apple.com'} target="_blank">Facebook</Link>
-                <Link href={'https://apple.com'} target="_blank">Twitter</Link>
+                <Link href={'https://twitter.com/flowerave_nft'} target="_blank">Twitter</Link>
             </div>
             <span className='dot'></span>
             <div className='socialLink_Develop'>
