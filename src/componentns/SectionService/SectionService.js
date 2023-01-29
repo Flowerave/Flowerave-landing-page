@@ -3,7 +3,7 @@ import Card from './Card/Card';
 
 function SectionService() {
   return (
-    <div className='sectionService'>
+    <div id='sectionService' className='sectionService'>
         <Card
             id="1"
             image="cover.jpg"

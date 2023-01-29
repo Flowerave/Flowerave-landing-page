@@ -3,7 +3,7 @@ import React from 'react'
 
 function SectionFooter() {
   return (
-    <div className='sectionFooter'>
+    <div id='sectionFooter' className='sectionFooter'>
         <ul>
             <li>
                 <a href='/' className='caption active'>English</a>

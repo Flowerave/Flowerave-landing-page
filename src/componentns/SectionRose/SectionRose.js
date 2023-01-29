@@ -2,7 +2,7 @@ import React from 'react'
 
 function SectionRose() {
   return (
-    <div className='sectionRose'>
+    <div id='sectionRose' className='sectionRose'>
         sectionRose
     </div>
   )
