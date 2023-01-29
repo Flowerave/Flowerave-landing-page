@@ -31,6 +31,8 @@
 
         .row {
             gap: 1em;
+            justify-content: start;
+            align-items: center;
 
             .button {
                 width: fit-content;
