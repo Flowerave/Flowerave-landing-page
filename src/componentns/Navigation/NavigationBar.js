@@ -22,6 +22,8 @@ function NavigationBar() {
                 <Link href={'https://apple.com'} target="_blank">Notion</Link>
             </div>
         </div>
+
+        <button className='navMobile'></button>
     </nav>
   )
 }
