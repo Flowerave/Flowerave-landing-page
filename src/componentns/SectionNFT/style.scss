@@ -27,7 +27,7 @@
         border-radius: .5em;
 
         .headerline {
-            margin-bottom: .5em;
+            margin-bottom: 1em;
             text-align: center;
         }
         .description {
@@ -54,5 +54,16 @@
         grid-template-rows: 2fr;
         grid-column-gap: 0;
         grid-row-gap: 1em;
+
+        .content {
+
+            .headerline {
+            }
+            .description {
+            }
+            .row {
+                width: 100%;
+            }
+        }
     }
 }
