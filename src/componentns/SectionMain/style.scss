@@ -63,8 +63,10 @@
                 .button {
                     width: fill;
                 }
-                .buttonPrimary {
-                    width: 100%;
+                a {
+                    .buttonPrimary {
+                        width: 100%;
+                    }
                 }
             }
 
