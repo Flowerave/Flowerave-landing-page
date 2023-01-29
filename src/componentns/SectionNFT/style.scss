@@ -1,12 +1,56 @@
 .sectionNFT {
     padding: 2em;
 
-    background: var(--attention-background); // Develop
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: 1fr;
+    grid-column-gap: 2em;
+    grid-row-gap: 0;
+
+    .video {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        background-size: cover;
+    }
+    .content {
+        width: 100%;
+        height: 100%;
+
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: .5em;
+
+        .headerline {
+            margin-bottom: .5em;
+            text-align: center;
+        }
+        .description {
+            margin-bottom: 2em;
+            text-align: center;
+        }
+        .row {
+            gap: 1em;
+            justify-content: start;
+            align-items: center;
+        }
+    }
 }
 
 /* Mobile */
 @media (max-width: 480px) {
     .sectionNFT {
         padding: 1em;
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 2fr;
+        grid-column-gap: 0;
+        grid-row-gap: 1em;
     }
 }
