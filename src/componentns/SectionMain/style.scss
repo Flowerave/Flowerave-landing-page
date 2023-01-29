@@ -17,7 +17,7 @@
     .content {
         position: absolute;
         padding: 0 2em;
-        bottom: 4em;
+        bottom: 2em;
 
         display: flex;
         flex-direction: column;
@@ -54,9 +54,11 @@
 
             .headerline {
                 max-width: 100%;
+                margin: 0;
             }
             .button {
                 width: 100%;
+                margin: 0;
             }
         }
     }
