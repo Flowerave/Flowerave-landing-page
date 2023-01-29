@@ -46,7 +46,7 @@ function NavigationBar(props) {
         <button
             className='navMobile'
             onClick={handleClick}>
-            Click
+            Menu
             </button>
 
         {/* 👇️ show elements on click */}
