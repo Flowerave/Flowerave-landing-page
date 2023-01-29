@@ -24,3 +24,13 @@
     }
     .caption {}
 }
+
+/* Mobile */
+@media (max-width: 480px) {
+    .card_Service {
+        .image {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
