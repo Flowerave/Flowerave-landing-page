@@ -12,7 +12,7 @@ function SectionArtist() {
             <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod urna rhoncus, ultricies mi sit amet, interdum purus. Cras vel mauris justo. Integer ac consectetur nisl. Fusce lobortis urna tellus, eu vestibulum arcu lobortis ac. </p>
             <div className='row'>
                 <Button body="Marketplace" />
-                <Button body="Apply for Beta Testing" />
+                <Button body="Go Beta" />
             </div>
         </div>
     </div>
