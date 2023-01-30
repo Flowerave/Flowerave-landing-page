@@ -13,4 +13,13 @@
         color: var(--black);
         background: var(--accent-hover);
     }
+    &:active {
+        color: var(--black);
+        background: var(--accent-active);
+    }
+    &:focus {
+        color: var(--black);
+        background: var(--accent);
+        border: 2px solid var(--accent-focus);
+    }
 }
