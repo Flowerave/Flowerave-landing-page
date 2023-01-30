@@ -5,11 +5,12 @@
 
     .text {
         font-size: 1.6em;
-        font-weight: 500;
+        font-weight: 600;
     }
 
     &:hover {
         transform: scale(.95);
-        color: var(--accent);
+        color: var(--black);
+        background: var(--accent-hover);
     }
 }
