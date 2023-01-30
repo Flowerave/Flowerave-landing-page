@@ -11,7 +11,8 @@
     }
     &:hover {
         transform: scale(.95);
-        color: var(--white);
+        color: var(--accent);
+        background: rgba(var(--accent), 0.1);
     }
     &:active {
         color: var(--white);
