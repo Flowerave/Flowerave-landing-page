@@ -9,7 +9,7 @@ function NavigationBar(props) {
     const handleClick = event => {
     // 👇️ toggle shown state
     setIsShown(current => !current);
-    setButtonText('Close');
+    setButtonText('Navigation');
     }
 
     function Box() {
@@ -44,8 +44,10 @@ function NavigationBar(props) {
 
         <button
             className='navMobile'
-            onClick={handleClick}>
+            onClick={handleClick}
+            >
             {buttonText}
+            
         </button>
 
         {/* 👇️ show elements on click */}
