@@ -1,6 +1,7 @@
 .buttonSecondary {
     padding: 1.5em 2.5em;
     border-radius: 1.2em;
+    
     border: 1px solid var(--accent);
     white-space: nowrap;
     background: none;
@@ -10,18 +11,21 @@
     .text {
         font-size: 1.6em;
         font-weight: 600;
+        color: var(--accent);
     }
     &:hover {
         color: var(--accent);
-        background: rgba(var(--accent), 0.1);
+        background: var(--accent-disabled);
+        border: 1px solid var(--accent);
     }
     &:active {
-        color: var(--white);
-        background: var(--layer-3);
+        color: var(--accent);
+        background: var(--accent-dark);
+        border: 1px solid var(--accent);
     }
     &:focus {
-        color: var(--black);
-        background: var(--accent);
-        border: 2px solid var(--accent-focus);
+        color: var(--accent);
+        background: var(--accent-disabled);
+        border: 1px dashed var(--accent);
     }
 }
