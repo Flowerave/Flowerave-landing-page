@@ -13,10 +13,10 @@ export default function Document() {
       <link rel="manifest" href="/site.webmanifest"></link>
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#333333"></link>
       <meta name="msapplication-TileColor" content="#000000"></meta>
-      <meta name="theme-color" content="#ffffff"></meta>
+      <meta name="theme-color" content="var(--accent)"></meta>
 
       {/* BODY */}
-      
+
       <body>
         <Main />
         <NextScript />
