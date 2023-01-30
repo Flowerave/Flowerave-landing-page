@@ -9,9 +9,17 @@
         font-size: 1.6em;
         font-weight: 600;
     }
-
     &:hover {
         transform: scale(.95);
-        color: var(--accent);
+        color: var(--white);
+    }
+    &:active {
+        color: var(--white);
+        background: var(--layer-3);
+    }
+    &:focus {
+        color: var(--black);
+        background: var(--accent);
+        border: 2px solid var(--accent-focus);
     }
 }
