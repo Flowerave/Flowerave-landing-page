@@ -54,13 +54,13 @@ function NavigationBar(props) {
             <div className='navigationMobileView'>
                 <div className='navigationList'>
                     <button onClick={handleClick} className="buttonTo headerline1">
-                        <Link href={"#sectionRose"}>Menu to</Link>
+                        <Link href={"#sectionRose"}>What's the Rose</Link>
                     </button>
                     <button onClick={handleClick} className="buttonTo headerline1">
-                        <Link href={"#sectionNFT"}>Menu to</Link>
+                        <Link href={"#sectionNFT"}>NFT Collection</Link>
                     </button>
                     <button onClick={handleClick} className="buttonTo headerline1">
-                        <Link href={"#sectionArtist"}>Menu to</Link>
+                        <Link href={"#sectionArtist"}>Artist Support</Link>
                     </button>
                 </div>
                 <video className="tube" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
