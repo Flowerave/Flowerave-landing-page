@@ -54,11 +54,14 @@ function NavigationBar(props) {
             <div className='navigationMobileView'>
                 <div className='navigationList'>
                     <button onClick={handleClick} className="buttonTo headerline1">
-                        <Link href={"#sectionNFT"}>Text</Link>
+                        <Link href={"#sectionRose"}>Menu to</Link>
                     </button>
-                    <a className='headerline1' href='#sectionRose' >Концепция</a>
-                    <a className='headerline1' href='#sectionNFT'>NFT</a>
-                    <a className='headerline1' href='#sectionArtist'>Артисты</a>
+                    <button onClick={handleClick} className="buttonTo headerline1">
+                        <Link href={"#sectionNFT"}>Menu to</Link>
+                    </button>
+                    <button onClick={handleClick} className="buttonTo headerline1">
+                        <Link href={"#sectionArtist"}>Menu to</Link>
+                    </button>
                 </div>
                 <video className="tube" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
                     <source src="/tube.mp4" type="video/mp4" />
