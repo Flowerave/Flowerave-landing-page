@@ -53,9 +53,9 @@ function NavigationBar(props) {
         {isShown && (
             <div className='navigationMobileView'>
                 <div className='navigationList'>
-                    <a className='headerline1' href='/'>Концепция</a>
-                    <a className='headerline1' href='/'>NFT</a>
-                    <a className='headerline1' href='/'>Артисты</a>
+                    <a className='headerline1' href='#sectionRose'>Концепция</a>
+                    <a className='headerline1' href='#sectionNFT'>NFT</a>
+                    <a className='headerline1' href='#sectionArtist'>Артисты</a>
                 </div>
                 <div className='socialLink_Media'>
                 <Link href={'https://apple.com'} target="_blank">Instagram</Link>
