@@ -47,7 +47,6 @@ function NavigationBar(props) {
             onClick={handleClick}
             >
             {buttonText}
-            
         </button>
 
         {/* 👇️ show elements on click */}
