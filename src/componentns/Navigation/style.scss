@@ -119,20 +119,20 @@
     .navMobile {
         display: block; // Mobile
         cursor: pointer;
-
         width: auto;
         height: 24px;
         padding: 0 1em;
-
+        border: 1px solid var(--accent);
         border-radius: 40px;
-        color: var(--black);
-        background: var(--lightgray);
+        color: var(--accent);
+        background: none;
 
         z-index: 10000;
         transition: var(--element-in);
 
         &:hover {
-            background: var(--gray);
+            color: var(--black);
+            background: var(--accent);
         }
 
         &:active {

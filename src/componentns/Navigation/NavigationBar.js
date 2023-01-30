@@ -4,13 +4,12 @@ import Link from 'next/link';
 function NavigationBar(props) {
 
     const [isShown, setIsShown] = useState(false);
+    const [buttonText, setButtonText] = useState('Navigation');
 
     const handleClick = event => {
     // 👇️ toggle shown state
     setIsShown(current => !current);
-
-    // 👇️ or simply set it to true
-    // setIsShown(true);
+    setButtonText('Close');
     }
 
     function Box() {
@@ -46,7 +45,7 @@ function NavigationBar(props) {
         <button
             className='navMobile'
             onClick={handleClick}>
-            Navigation
+            {buttonText}
         </button>
 
         {/* 👇️ show elements on click */}
