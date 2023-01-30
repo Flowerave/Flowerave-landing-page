@@ -127,6 +127,9 @@
                     &:hover {
                         color: var(--gray);
                     }
+                    &:active {
+                        color: var(--accent);
+                    }
                 }
             }
         }
