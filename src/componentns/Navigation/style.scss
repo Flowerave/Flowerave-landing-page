@@ -126,17 +126,17 @@
 
         border-radius: 40px;
         color: var(--black);
-        background: var(--accent);
+        background: var(--lightgray);
 
         z-index: 10000;
         transition: var(--element-in);
 
         &:hover {
-            background: var(--lightgray);
+            background: var(--gray);
         }
 
         &:active {
-            transform: scale(.8);
+            transform: scale(.9);
         }
     }
 
