@@ -12,6 +12,10 @@
     height: var(--web-header-main);
     z-index: 1000 !important;
 
+    .buttonTo {
+        text-align: left;
+    }
+
     .navigationList {
         width: 100%;
         position: absolute;
