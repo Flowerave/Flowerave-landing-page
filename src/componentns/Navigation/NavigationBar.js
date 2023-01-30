@@ -53,9 +53,19 @@ function NavigationBar(props) {
         {isShown && (
             <div className='navigationMobileView'>
                 <div className='navigationList'>
-                    <a className='headerline2' href='/'>Концепция</a>
-                    <a className='headerline2' href='/'>NFT</a>
-                    <a className='headerline2' href='/'>Артисты</a>
+                    <a className='headerline1' href='/'>Концепция</a>
+                    <a className='headerline1' href='/'>NFT</a>
+                    <a className='headerline1' href='/'>Артисты</a>
+                </div>
+                <div className='socialLink_Media'>
+                <Link href={'https://apple.com'} target="_blank">Instagram</Link>
+                <Link href={'https://apple.com'} target="_blank">Facebook</Link>
+                <Link href={'https://twitter.com/flowerave_nft'} target="_blank">Twitter</Link>
+                </div>
+                <span className='dot'></span>
+                <div className='socialLink_Develop'>
+                    <Link href={'https://github.com/Flowerave'} target="_blank">GitHub</Link>
+                    <Link href={'https://apple.com'} target="_blank">Notion</Link>
                 </div>
                 <video className="tube" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
                     <source src="/tube.mp4" type="video/mp4" />
