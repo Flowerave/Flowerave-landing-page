@@ -102,6 +102,35 @@
         height: 120vh;
         background: var(--layer-1);
 
+        .socialLinkMobile {
+            display: flex;
+            flex-direction: column;
+            gap: 1.75em;
+            position: fixed;
+            bottom: 4em;
+            
+            .socialLink_MediaMobile {
+                display: flex;
+                flex-direction: column;
+                gap: .75em;
+    
+            }
+            .socialLink_DevelopMobile {
+                display: flex;
+                flex-direction: column;
+                gap: .75em;
+                transition: var(--element-in);
+
+                a {
+                    color: var(--lightgray);
+
+                    &:hover {
+                        color: var(--gray);
+                    }
+                }
+            }
+        }
+
         .tube {
             position: fixed;
             background-position: center right;

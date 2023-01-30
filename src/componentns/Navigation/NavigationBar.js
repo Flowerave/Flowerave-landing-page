@@ -62,6 +62,17 @@ function NavigationBar(props) {
                     <button onClick={handleClick} className="buttonTo headerline1">
                         <Link href={"#sectionArtist"}>Artist Support</Link>
                     </button>
+                    <div className='socialLinkMobile'>
+                        <div className='socialLink_MediaMobile'>
+                            <Link href={'https://apple.com'} target="_blank">Instagram</Link>
+                            <Link href={'https://apple.com'} target="_blank">Facebook</Link>
+                            <Link href={'https://twitter.com/flowerave_nft'} target="_blank">Twitter</Link>
+                        </div>
+                        <div className='socialLink_DevelopMobile'>
+                            <Link href={'https://github.com/Flowerave'} target="_blank">GitHub</Link>
+                            <Link href={'https://apple.com'} target="_blank">Notion</Link>
+                        </div>
+                </div>
                 </div>
                 <video className="tube" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
                     <source src="/tube.mp4" type="video/mp4" />
