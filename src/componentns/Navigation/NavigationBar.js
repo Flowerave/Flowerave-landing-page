@@ -53,9 +53,9 @@ function NavigationBar(props) {
         {isShown && (
             <div className='navigationMobileView'>
                 <div className='navigationList'>
-                    <a className='headerline3' href='/'>Text</a>
-                    <a className='headerline3' href='/'>Text</a>
-                    <a className='headerline3' href='/'>Text</a>
+                    <a className='headerline3' href='/'>Концепция</a>
+                    <a className='headerline3' href='/'>NFT</a>
+                    <a className='headerline3' href='/'>Артисты</a>
                 </div>
                 <video className="tube" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
                     <source src="/tube.mp4" type="video/mp4" />
