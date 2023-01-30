@@ -56,16 +56,12 @@ function NavigationBar(props) {
                     <a className='headerline1' href='#sectionRose'>Концепция</a>
                     <a className='headerline1' href='#sectionNFT'>NFT</a>
                     <a className='headerline1' href='#sectionArtist'>Артисты</a>
-                </div>
-                <div className='socialLink_Media'>
-                <Link href={'https://apple.com'} target="_blank">Instagram</Link>
-                <Link href={'https://apple.com'} target="_blank">Facebook</Link>
-                <Link href={'https://twitter.com/flowerave_nft'} target="_blank">Twitter</Link>
-                </div>
-                <span className='dot'></span>
-                <div className='socialLink_Develop'>
-                    <Link href={'https://github.com/Flowerave'} target="_blank">GitHub</Link>
-                    <Link href={'https://apple.com'} target="_blank">Notion</Link>
+
+                    <div className='socialLink_Media'>
+                        <Link href={'https://apple.com'} target="_blank">Instagram</Link>
+                        <Link href={'https://apple.com'} target="_blank">Facebook</Link>
+                        <Link href={'https://twitter.com/flowerave_nft'} target="_blank">Twitter</Link>
+                    </div>
                 </div>
                 <video className="tube" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
                     <source src="/tube.mp4" type="video/mp4" />
