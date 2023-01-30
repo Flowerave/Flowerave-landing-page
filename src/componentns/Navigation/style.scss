@@ -15,7 +15,12 @@
     .navigationList {
         width: 100%;
         position: absolute;
-        top: 4em;
+        top: 8em;
+        left: 1em;
+
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
     }
 
     .navMobile {
