@@ -18,7 +18,7 @@ function SectionMain() {
                     <ButtonPrimary body="Buy NFT" />
                 </Link>
                 <Link href={'https://t.me/demo_flowerave_bot'} target="_blank">
-                    <ButtonSecondary body="Go Beta" />
+                    <ButtonSecondary body="Go βeta" />
                 </Link>
             </div>
         </div>
