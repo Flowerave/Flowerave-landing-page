@@ -13,18 +13,36 @@
         gap: 1em;
 
         .mobileRoadmapList_Card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             padding: 1em .75em;
-            border: 1px solid var(--border-secondary-border);
-            border-radius: .5em;
+            background: var(--bg-primary-background);
+            border: 1px solid var(--border-tertiary-border);
+            border-radius: .75em;
+
+            height: 33vh;
 
             min-width: 80%;
+            max-height: 228px;
 
-            .description{
-                font-weight: 600;
+            .inWork {
+                width: fit-content;
             }
-            .caption{
-                color: var(--txt-tertiary-color);
-                margin-bottom: 6em;
+            .inData {
+                width: fit-content;
+                font-size: .8em;
+                color: var(--darkgray);
+
+            }
+
+            div {
+                .description{
+                    font-weight: 600;
+                }
+                .caption{
+                    color: var(--txt-secondary-color);
+                }
             }
         }
     }
