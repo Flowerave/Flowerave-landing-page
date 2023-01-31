@@ -48,9 +48,6 @@ function SectionMain() {
                 scrub: 3,
         },
         });
-        
-
-
         }, []);
 
   return (
