@@ -17,7 +17,9 @@
 
             min-width: 80%;
 
-            .description{}
+            .description{
+                font-weight: 600;
+            }
             .caption{
                 color: var(--txt-tertiary-color);
                 margin-bottom: 6em;
