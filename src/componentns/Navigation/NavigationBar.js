@@ -62,6 +62,9 @@ function NavigationBar(props) {
                     <button onClick={handleClick} className="buttonTo headerline1">
                         <Link href={"#sectionArtist"}>Artist Support</Link>
                     </button>
+                    <button onClick={handleClick} className="buttonTo headerline1">
+                        <Link href={"#sectionRoadmap"}>Roadmap</Link>
+                    </button>
                     <div className='socialLinkMobile'>
                         <div className='socialLink_MediaMobile'>
                             <Link href={'https://apple.com'} target="_blank">Instagram</Link>

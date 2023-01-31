@@ -3,7 +3,7 @@ import SectionRoadmapMobile from './SectionRoadmapMobile/SectionRoadmapMobile'
 
 function SectionRoadmap() {
   return (
-    <div className='sectionRoadmap'>
+    <div id='sectionRoadmap' className='sectionRoadmap'>
         <SectionRoadmapMobile />
     </div>
   )
