@@ -15,7 +15,7 @@ function SectionMain() {
             duration: 1,
             filter: "blur(3em)",
             opacity: 0,
-            y: "-100vh",
+            y: "-60vh",
             transformOrigin: "top",
             scrollTrigger: {
                 trigger: ".sectionMain",
