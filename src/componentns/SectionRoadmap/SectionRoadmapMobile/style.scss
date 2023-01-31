@@ -8,11 +8,11 @@
         padding: 1em;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: .5em;
+        gap: 1em;
 
         .mobileRoadmapList_Card {
-            padding: 1em;
-            border: 1px solid var(--border-primary-border);
+            padding: 1em .75em;
+            border: 1px solid var(--border-secondary-border);
             border-radius: .5em;
 
             min-width: 80%;
