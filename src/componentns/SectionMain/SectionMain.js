@@ -28,7 +28,7 @@ function SectionMain() {
 
         gsap.to(".headerline-action", {
             duration: 10,
-            y: "-5em",
+            y: "-3.5em",
             transformOrigin: "top",
             scrollTrigger: {
                 trigger: ".sectionMain",
@@ -40,7 +40,7 @@ function SectionMain() {
 
         gsap.to(".row-action", {
             duration: 10,
-            y: "0em",
+            y: "-2.5em",
             transformOrigin: "top",
             scrollTrigger: {
                 trigger: ".sectionMain",
