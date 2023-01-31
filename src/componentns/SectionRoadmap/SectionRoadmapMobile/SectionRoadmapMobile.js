@@ -40,7 +40,7 @@ function SectionRoadmapMobile() {
                 <p className='description'>Battle</p>
                 <p className='caption'>NFT game</p>
                 </div>
-                <span className='inData'>2024・Q4</span>
+                <span className='inData'>2024・Q2</span>
             </div>
         </div>
     </div>
