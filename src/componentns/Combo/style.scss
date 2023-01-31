@@ -9,15 +9,23 @@
         margin-bottom: 2em;
     }
     .row {
-        width: 100%;
-        gap: 1em;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 1em;
 
-        .button {
+        .buttonPrimary,
+        .buttonSecondary {
             width: fit-content;
+        }
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .comboText {
+        .row {
+            gap: 0.5em;
         }
     }
 }
