@@ -30,6 +30,37 @@ function SectionRose() {
         },
         });
 
+        gsap.to(".r-r-1", {
+            duration: 10,
+            x: "-8em",
+            scrollTrigger: {
+                trigger: ".sectionRose",
+                start: "top center",
+                end: "bottom ",
+                scrub: 2,
+        },
+        });
+        gsap.to(".r-r-2", {
+            duration: 10,
+            x: "8em",
+            scrollTrigger: {
+                trigger: ".sectionRose",
+                start: "top center",
+                end: "bottom ",
+                scrub: 2,
+        },
+        });
+        gsap.to(".r-r-3", {
+            duration: 10,
+            x: "-8em",
+            scrollTrigger: {
+                trigger: ".sectionRose",
+                start: "top center",
+                end: "bottom ",
+                scrub: 2,
+        },
+        });
+
         // Add
         }, []);
 
@@ -40,7 +71,7 @@ function SectionRose() {
 
         <div className='roseMetro'>
             {/* Row 1 */}
-            <div className='row'>
+            <div className='row r-r-1'>
                 {/* Rose 1 */}
                 <video className="rose" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
                     <source src="/rose1.mp4" type="video/mp4" />
@@ -63,7 +94,7 @@ function SectionRose() {
                 </video>
             </div>
             {/* Row 2 */}
-            <div className='row'>
+            <div className='row r-r-2'>
                 {/* Rose 6 */}
                 <video className="rose" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
                     <source src="/rose6.mp4" type="video/mp4" />
@@ -82,7 +113,7 @@ function SectionRose() {
                 </video>
             </div>
             {/* Row 3 */}
-            <div className='row'>
+            <div className='row r-r-3'>
                 {/* Rose 10 */}
                 <video className="rose" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
                     <source src="/rose8.mp4" type="video/mp4" />
