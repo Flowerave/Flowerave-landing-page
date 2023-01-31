@@ -10,20 +10,19 @@ import { useEffect } from "react";
 gsap.registerPlugin(ScrollTrigger);
 
 function SectionMain() {
-    useEffect(() => {
+        useEffect(() => {
         gsap.to(".video", {
-            duration: 10,
-            filter: "blur(16px)",
-            transform: "scale(1.5)",
+            duration: 1,
+            filter: "blur(3em)",
             opacity: 0,
             y: "-100vh",
             transformOrigin: "top",
             scrollTrigger: {
                 trigger: ".sectionMain",
-                start: "top",
+                start: "top center",
                 end: "bottom ",
-                scrub: 1,
-          },
+                scrub: 3,
+        },
         });
 
         gsap.to(".headerline-action", {
@@ -32,10 +31,10 @@ function SectionMain() {
             transformOrigin: "top",
             scrollTrigger: {
                 trigger: ".sectionMain",
-                start: "top",
+                start: "top center",
                 end: "bottom ",
                 scrub: 1,
-          },
+        },
         });
 
         gsap.to(".row-action", {
@@ -44,13 +43,15 @@ function SectionMain() {
             transformOrigin: "top",
             scrollTrigger: {
                 trigger: ".sectionMain",
-                start: "top",
+                start: "top center",
                 end: "bottom ",
-                scrub: 2,
-          },
+                scrub: 3,
+        },
         });
-      }, []);
-    
+        
+
+
+        }, []);
 
   return (
     <div id='sectionMain' className='sectionMain'>
