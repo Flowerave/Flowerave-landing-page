@@ -6,7 +6,7 @@ import ButtonSecondary from '../Button/ButtonSecondary/ButtonSecondary';
 function ComboText(props) {
   return (
     <div className='comboText'>
-        <h2 className='headerline headerline6'>{props.title}</h2>
+        <h2 className='headerline headerline5'>{props.title}</h2>
         <p className='description'>{props.description}</p>
         <div className='row'>
             <ButtonPrimary body={props.primaryBtn} />
