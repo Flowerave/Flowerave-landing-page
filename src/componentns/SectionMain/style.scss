@@ -36,7 +36,7 @@
 
         .row {
             display: grid;
-            grid-template-columns: 1fr 1fr auto;
+            grid-template-columns: 1fr 1fr;
             gap: 1em;
             justify-items: start;
             align-items: center;
