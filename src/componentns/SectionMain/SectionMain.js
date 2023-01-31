@@ -19,7 +19,7 @@ function SectionMain() {
             transformOrigin: "top",
             scrollTrigger: {
                 trigger: ".sectionMain",
-                start: "top center",
+                start: "top",
                 end: "bottom ",
                 scrub: 3,
         },
@@ -31,7 +31,7 @@ function SectionMain() {
             transformOrigin: "top",
             scrollTrigger: {
                 trigger: ".sectionMain",
-                start: "top center",
+                start: "top",
                 end: "bottom ",
                 scrub: 1,
         },
@@ -43,7 +43,7 @@ function SectionMain() {
             transformOrigin: "top",
             scrollTrigger: {
                 trigger: ".sectionMain",
-                start: "top center",
+                start: "top",
                 end: "bottom ",
                 scrub: 3,
         },
