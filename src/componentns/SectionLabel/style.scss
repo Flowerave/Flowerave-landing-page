@@ -1,0 +1,34 @@
+
+/* Web */
+.sectionLabel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 2em;
+
+    position: relative;
+
+    .videoCover {
+        width: 100%;
+        height: 80vh;
+        object-fit: cover;
+    }
+    .content {
+        margin: 0 auto;
+        padding: 4em 2em;
+
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .sectionLabel {
+        padding: 1em;
+    }
+}

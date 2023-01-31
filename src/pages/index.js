@@ -8,6 +8,7 @@ import SectionRose from '@/componentns/SectionRose/SectionRose';
 import SectionService from '@/componentns/SectionService/SectionService';
 import SectionNFT from '@/componentns/SectionNFT/SectionNFT';
 import SectionRoadmap from '@/componentns/SectionRoadmap/SectionRoadmap';
+import SectionLabel from '@/componentns/SectionLabel/SectionLabel';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <SectionNFT     />
       <SectionService />
       <SectionArtist  />
+      <SectionLabel />
 
       <SectionRoadmap />
 
