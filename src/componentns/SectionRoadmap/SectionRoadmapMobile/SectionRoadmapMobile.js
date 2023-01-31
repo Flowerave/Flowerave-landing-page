@@ -25,7 +25,7 @@ function SectionRoadmapMobile() {
                 <p className='description'>Screen</p>
                 <p className='caption'>Wallet</p>
                 </div>
-                <span className='inData'>2023・Q4</span>
+                <span className='inData'>2023ç・Q4</span>
             </div>
             <div className='mobileRoadmapList_Card'>
                 <div>

@@ -4,7 +4,8 @@ import ComboText from '../Combo/ComboText';
 function SectionNFT() {
   return (
     <div id='sectionNFT' className='sectionNFT'>
-        <video className="video" loop={'true'} muted={'true'} autoPlay={'true'} playsInline={'true'}>
+        {/* Main Video */}
+        <video className="video-colba" loop={'true'} muted={'true'} autoPlay={'true'} playsInline={'true'}>
             <source src="/colba.mp4" type="video/mp4" />
         </video>
         <div className='content'>
