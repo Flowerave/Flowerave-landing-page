@@ -1,17 +1,17 @@
 import React from 'react'
+import SectionNFT from '../../SectionNFT/SectionNFT'
 
 function SectionRoadmapMobile() {
   return (
     <div className='sectionRoadmapMobile'>
         <h5>Roadmap</h5>
         <div className='mobileRoadmapList'>
-            <div className='mobileRoadmapList_Card'>
+            <div className='mobileRoadmapList_CardDone'>
                 <div>
-                <p className='description'>Ticket</p>
-                <p className='caption'>NFT Events</p>
+                <p className='description'>Deploy NFT</p>
+                <p className='caption'>Create collection</p>
                 </div>
-
-                <span className='inWork'>Coming Soon</span>
+                <span className='inDone'>Done</span>
             </div>
             <div className='mobileRoadmapList_Card'>
                 <div>
@@ -22,10 +22,18 @@ function SectionRoadmapMobile() {
             </div>
             <div className='mobileRoadmapList_Card'>
                 <div>
+                <p className='description'>Ticket</p>
+                <p className='caption'>NFT Events</p>
+                </div>
+
+                <span className='inData'>2023・Q2</span>
+            </div>
+            <div className='mobileRoadmapList_Card'>
+                <div>
                 <p className='description'>Screen</p>
                 <p className='caption'>Wallet</p>
                 </div>
-                <span className='inData'>2023ç・Q4</span>
+                <span className='inData'>2023・Q4</span>
             </div>
             <div className='mobileRoadmapList_Card'>
                 <div>

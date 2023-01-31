@@ -12,6 +12,36 @@
         grid-template-columns: 1fr 1fr;
         gap: 1em;
 
+        .mobileRoadmapList_CardDone {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 1em .75em;
+            background: var(--bg-tertiary-background);
+            border-radius: .75em;
+
+            height: 33vh;
+            max-height: 228px;
+
+            .inDone {
+                width: fit-content;
+                font-size: .8em;
+                padding: .25em .5em;
+                border-radius: .5em;
+                color: var(--accent);
+                border: 1px solid var(--accent);
+            }
+
+            div {
+                .description{
+                    font-weight: 600;
+                }
+                .caption{
+                    color: var(--txt-secondary-color);
+                }
+            }
+        }
+
         .mobileRoadmapList_Card {
             display: flex;
             flex-direction: column;

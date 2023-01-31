@@ -9,7 +9,7 @@ function SectionLabel() {
         </video>
         <div className='content'>
             <ComboText
-                title="F22"
+                title="Section For Events"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod urna rhoncus, ultricies mi sit amet, interdum purus. Cras vel mauris justo. Integer ac consectetur nisl. Fusce lobortis urna tellus, eu vestibulum arcu lobortis ac."
                 primaryBtn="Кнопка"
                 secondaryBtn="Кнопка"
