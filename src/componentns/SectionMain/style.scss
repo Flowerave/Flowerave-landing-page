@@ -32,7 +32,7 @@
 
         display: grid;
         grid-template-rows: 1fr 1fr;
-        gap: 1.75em;
+        gap: 1em !important;
 
         .row {
             display: grid;
