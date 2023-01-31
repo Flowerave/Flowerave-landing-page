@@ -10,7 +10,7 @@ function SectionNFT() {
         <div className='content'>
             <ComboText
                 title="Flowerave’s first collection is a thousand ‘Rose’ NFT’s. The NFT is a key to authorise in the bot."
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod urna rhoncus, ultricies mi sit amet, interdum purus. Cras vel mauris justo. Integer ac consectetur nisl. Fusce lobortis urna tellus, eu vestibulum arcu lobortis ac."
+                description="Первая коллекция Flowerave “Rose” содержит тысячу NFT -  это ключ для авторизации в боте и эко-системе приложений Flowerave"
                 primaryBtn="Кнопка"
                 secondaryBtn="Кнопка"
             />
