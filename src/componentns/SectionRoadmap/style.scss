@@ -1,0 +1,15 @@
+/* Web */
+.sectionRoadmap {
+    .sectionRoadmapMobile {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .sectionRoadmap {
+        .sectionRoadmapMobile {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.sectionRoadmapMobile {
+
+    h5 {
+        padding: 0 1em;
+        margin-bottom: .5em;
+    }
+    .mobileRoadmapList {
+        padding: 1em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: .5em;
+
+        .mobileRoadmapList_Card {
+            padding: 1em;
+            border: 1px solid var(--border-primary-border);
+            border-radius: .5em;
+
+            min-width: 80%;
+
+            .description{}
+            .caption{
+                color: var(--txt-tertiary-color);
+                margin-bottom: 6em;
+            }
+        }
+    }
+}
