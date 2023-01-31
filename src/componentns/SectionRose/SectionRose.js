@@ -21,7 +21,7 @@ function SectionRose() {
 
         gsap.to(".d-a-r", {
             duration: 10,
-            y: "-6em",
+            y: "-3em",
             scrollTrigger: {
                 trigger: ".sectionRose",
                 start: "top center",
