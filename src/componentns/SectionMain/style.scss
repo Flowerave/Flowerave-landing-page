@@ -24,15 +24,15 @@
     }
     .content {
         position: absolute;
-        padding: 0 2em 2em 2em;
+        padding: 0 2em 1em 2em;
         bottom: 0;
 
         background: rgb(0,0,0);
         background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 100%);
 
-        display: flex;
-        flex-direction: column;
-        gap: 2.75em;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 1.75em;
 
         .row {
             display: grid;
