@@ -35,9 +35,12 @@
         gap: 2.75em;
 
         .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr auto;
             gap: 1em;
-            justify-content: start;
+            justify-items: start;
             align-items: center;
+            width: -webkit-max-content;
 
             .button {
                 width: fill;
