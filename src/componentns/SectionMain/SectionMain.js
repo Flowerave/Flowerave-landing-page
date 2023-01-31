@@ -3,7 +3,55 @@ import React from 'react';
 import ButtonPrimary from '../Button/ButtonPrimary/ButtonPrimary';
 import ButtonSecondary from '../Button/ButtonSecondary/ButtonSecondary';
 
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { useEffect } from "react";
+
+gsap.registerPlugin(ScrollTrigger);
+
 function SectionMain() {
+    useEffect(() => {
+        gsap.to(".video", {
+            duration: 10,
+            filter: "blur(16px)",
+            transform: "scale(1.5)",
+            opacity: 0,
+            y: "-100vh",
+            transformOrigin: "top",
+            scrollTrigger: {
+                trigger: ".sectionMain",
+                start: "top",
+                end: "bottom ",
+                scrub: 1,
+          },
+        });
+
+        gsap.to(".headerline-action", {
+            duration: 10,
+            y: "-5em",
+            transformOrigin: "top",
+            scrollTrigger: {
+                trigger: ".sectionMain",
+                start: "top",
+                end: "bottom ",
+                scrub: 1,
+          },
+        });
+
+        gsap.to(".row-action", {
+            duration: 10,
+            y: "0em",
+            transformOrigin: "top",
+            scrollTrigger: {
+                trigger: ".sectionMain",
+                start: "top",
+                end: "bottom ",
+                scrub: 2,
+          },
+        });
+      }, []);
+    
+
   return (
     <div id='sectionMain' className='sectionMain'>
         {/* Main Video */}
@@ -12,8 +60,8 @@ function SectionMain() {
         </video>
         {/* Content */}
         <div className='content'>
-            <h1 className='headerline headerline2'>Unlock Your Possibilities with Flowerave: TON Blockchain Technology and NFTs!</h1>
-            <div className='row'>
+            <h1 className='headerline-action headerline headerline2'>Unlock Your Possibilities with Flowerave: TON Blockchain Technology and NFTs!</h1>
+            <div className='row-action row'>
                 <Link href="https://getgems.io" target="_blank">
                     <ButtonPrimary body="Buy NFT" />
                 </Link>

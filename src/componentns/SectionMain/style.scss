@@ -16,11 +16,9 @@
         object-position: center;
         background-size: cover;
         background-position: center;
-        opacity: .3;
+        opacity: .6;
         background-color: var(--layer-1);
         border-radius: .5em;
-
-        animation: fadeInCenter 1.2s;
     }
     .content {
         position: absolute;
