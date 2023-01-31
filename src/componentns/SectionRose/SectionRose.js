@@ -26,7 +26,7 @@ function SectionRose() {
                 trigger: ".sectionRose",
                 start: "top center",
                 end: "bottom ",
-                scrub: 2,
+                scrub: 6,
         },
         });
 
@@ -37,7 +37,7 @@ function SectionRose() {
                 trigger: ".sectionRose",
                 start: "top center",
                 end: "bottom ",
-                scrub: 2,
+                scrub: 3,
         },
         });
         gsap.to(".r-r-2", {
@@ -47,7 +47,7 @@ function SectionRose() {
                 trigger: ".sectionRose",
                 start: "top center",
                 end: "bottom ",
-                scrub: 2,
+                scrub: 3,
         },
         });
         gsap.to(".r-r-3", {
