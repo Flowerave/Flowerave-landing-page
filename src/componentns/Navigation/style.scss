@@ -12,6 +12,9 @@
     height: var(--web-header-main);
     z-index: 1000 !important;
     border-bottom: 1px solid #131e0685;
+    background: var(--bg-blur-background);
+    -webkit-backdrop-filter: blur(10em);
+    backdrop-filter: blur(10em);
 
     .buttonTo {
         text-align: left;
