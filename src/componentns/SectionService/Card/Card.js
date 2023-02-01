@@ -12,10 +12,7 @@ function Card(props) {
     useEffect(() => {
         gsap.to(".v-a", {
             duration: 1,
-            filter: "blur(3em)",
-            opacity: 0,
             y: "-4vh",
-            transformOrigin: "top",
             scrollTrigger: {
                 trigger: ".sectionMain",
                 start: "top",
@@ -26,10 +23,7 @@ function Card(props) {
         // Next
         gsap.to(".t-a", {
             duration: 1,
-            filter: "blur(3em)",
-            opacity: 0,
             y: "-2vh",
-            transformOrigin: "top",
             scrollTrigger: {
                 trigger: ".sectionMain",
                 start: "top",
