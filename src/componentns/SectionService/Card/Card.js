@@ -31,6 +31,17 @@ function Card(props) {
                 scrub: 1,
         },
         });
+        // Next
+        gsap.to(".d-a", {
+            duration: 10,
+            y: "-16px",
+            scrollTrigger: {
+                trigger: ".card_Service",
+                start: "top center",
+                end: "bottom ",
+                scrub: 1,
+        },
+        });
         }, []);
 
     const myLoader = ({ src, width, quality }) => {
@@ -44,7 +55,7 @@ function Card(props) {
             </video>
             <h3 className='t-a title'>{ props.title }</h3>
             <p className='body'>{ props.body }</p>
-            <p className='t-d description'>{ props.description }</p>
+            <p className='d-a description'>{ props.description }</p>
             <p className='caption'>{ props.caption }</p>
         </div>
   )
