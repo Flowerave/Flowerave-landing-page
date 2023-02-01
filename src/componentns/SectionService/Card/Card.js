@@ -12,7 +12,7 @@ function Card(props) {
     useEffect(() => {
         gsap.to(".v-a", {
             duration: 1,
-            y: "-4vh",
+            y: "-40vh",
             scrollTrigger: {
                 trigger: ".sectionMain",
                 start: "top",
@@ -23,7 +23,7 @@ function Card(props) {
         // Next
         gsap.to(".t-a", {
             duration: 1,
-            y: "-2vh",
+            y: "-20vh",
             scrollTrigger: {
                 trigger: ".sectionMain",
                 start: "top",
