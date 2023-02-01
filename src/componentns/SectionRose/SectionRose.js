@@ -11,6 +11,7 @@ function SectionRose() {
         gsap.to(".roseMetro", {
             duration: 10,
             transform: 'scale(1.1)',
+            y: '4em',
             scrollTrigger: {
                 trigger: ".sectionRose",
                 start: "top center",
@@ -37,7 +38,7 @@ function SectionRose() {
                 trigger: ".sectionRose",
                 start: "top center",
                 end: "bottom ",
-                scrub: 6,
+                scrub: 3,
         },
         });
 
