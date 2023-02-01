@@ -83,6 +83,10 @@
         -webkit-backdrop-filter: blur(10em);
         backdrop-filter: blur(10em);
 
+        .navigationList {
+            gap: 1em;
+        }
+
         a {
             .logoMain {
                 position: absolute;
