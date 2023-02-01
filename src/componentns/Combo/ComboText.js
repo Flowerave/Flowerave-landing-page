@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import Button from '../Button/Button';
 import ButtonPrimary from '../Button/ButtonPrimary/ButtonPrimary';
@@ -9,8 +10,12 @@ function ComboText(props) {
         <h2 className='headerline headerline5'>{props.title}</h2>
         <p className='description'>{props.description}</p>
         <div className='row'>
-            <ButtonPrimary body={props.primaryBtn} />
-            <ButtonSecondary body={props.secondaryBtn} />
+            <Link href={'props.linkBtnPrimary'}>
+              <ButtonPrimary body={props.primaryBtn} />
+            </Link>
+            <Link href='https://google.com/'>
+              <ButtonSecondary body={props.secondaryBtn} />
+            </Link>
         </div>
     </div>
   )

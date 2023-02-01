@@ -13,6 +13,7 @@ function SectionNFT() {
                 title="NFT - это ключ для авторизации в эко-системе приложений Flowerave"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod urna rhoncus, ultricies mi sit amet, interdum purus. Cras vel mauris justo. Integer ac consectetur nisl. Fusce lobortis urna tellus, eu vestibulum arcu lobortis ac."
                 primaryBtn="Маркетплейс"
+                linkBtnPrimary="https://ya.ru"
                 secondaryBtn="Сообщество"
             />
         </div>
