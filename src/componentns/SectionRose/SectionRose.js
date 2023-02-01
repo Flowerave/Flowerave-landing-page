@@ -26,17 +26,16 @@ function SectionRose() {
                 trigger: ".sectionRose",
                 start: "top center",
                 end: "bottom ",
-                scrub: 3,
+                scrub: 6,
         },
         });
 
         gsap.to(".r-r-1", {
             duration: 10,
             x: "-8em",
-            y: "-4em",
             scrollTrigger: {
                 trigger: ".sectionRose",
-                start: "top -200px",
+                start: "top center",
                 end: "bottom ",
                 scrub: 3,
         },
@@ -54,11 +53,10 @@ function SectionRose() {
         gsap.to(".r-r-3", {
             duration: 10,
             x: "-8em",
-            y: "4em",
             scrollTrigger: {
                 trigger: ".sectionRose",
                 start: "top center",
-                end: "bottom 200",
+                end: "bottom ",
                 scrub: 2,
         },
         });
