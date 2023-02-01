@@ -8,17 +8,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 function SectionRose() {
     useEffect(() => {
-        gsap.to(".roseMetro", {
-            duration: 10,
-            y: '4em',
-            scrollTrigger: {
-                trigger: ".sectionRose",
-                start: "top center",
-                end: "bottom ",
-                scrub: 3,
-        },
-        });
-
         gsap.to(".h-a-r", {
             duration: 10,
             y: "-6em",
