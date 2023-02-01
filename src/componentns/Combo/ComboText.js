@@ -10,12 +10,8 @@ function ComboText(props) {
         <h2 className='headerline headerline5'>{props.title}</h2>
         <p className='description'>{props.description}</p>
         <div className='row'>
-            <Link href={'props.linkBtnPrimary'}>
-              <ButtonPrimary body={props.primaryBtn} />
-            </Link>
-            <Link href='https://google.com/'>
-              <ButtonSecondary body={props.secondaryBtn} />
-            </Link>
+            <ButtonPrimary body={props.primaryBtn} />
+            <ButtonSecondary body={props.secondaryBtn} />
         </div>
     </div>
   )
