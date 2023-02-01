@@ -21,7 +21,7 @@ function SectionMain() {
                 trigger: ".sectionMain",
                 start: "top",
                 end: "bottom ",
-                scrub: 3,
+                scrub: 2,
         },
         });
 
