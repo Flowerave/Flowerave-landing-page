@@ -12,18 +12,18 @@ function Card(props) {
     useEffect(() => {
         gsap.to(".v-a", {
             duration: 1,
-            y: "64px",
+            y: "-64px",
             scrollTrigger: {
                 trigger: ".sectionMain",
                 start: "top center",
                 end: "bottom ",
-                scrub: 2,
+                scrub: 1,
         },
         });
         // Next
         gsap.to(".t-a", {
             duration: 1,
-            y: "32px",
+            y: "-32px",
             scrollTrigger: {
                 trigger: ".sectionMain",
                 start: "top center",
