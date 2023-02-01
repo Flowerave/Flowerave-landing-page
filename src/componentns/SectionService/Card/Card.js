@@ -11,10 +11,10 @@ function Card(props) {
 
     useEffect(() => {
         gsap.to(".v-a", {
-            duration: 1,
+            duration: 10,
             y: "-64px",
             scrollTrigger: {
-                trigger: ".sectionMain",
+                trigger: ".card_Service",
                 start: "top center",
                 end: "bottom ",
                 scrub: 1,
@@ -22,10 +22,10 @@ function Card(props) {
         });
         // Next
         gsap.to(".t-a", {
-            duration: 1,
+            duration: 10,
             y: "-32px",
             scrollTrigger: {
-                trigger: ".sectionMain",
+                trigger: ".card_Service",
                 start: "top center",
                 end: "bottom ",
                 scrub: 1,
