@@ -10,7 +10,6 @@ function SectionRose() {
     useEffect(() => {
         gsap.to(".roseMetro", {
             duration: 10,
-            transform: 'scale(1.1)',
             y: '4em',
             scrollTrigger: {
                 trigger: ".sectionRose",
