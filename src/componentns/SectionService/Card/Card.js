@@ -12,7 +12,7 @@ function Card(props) {
     useEffect(() => {
         gsap.to(".v-a", {
             duration: 10,
-            y: "-64px",
+            y: "32px",
             scrollTrigger: {
                 trigger: ".card_Service",
                 start: "top center",
