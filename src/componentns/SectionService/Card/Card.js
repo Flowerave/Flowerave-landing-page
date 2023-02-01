@@ -12,7 +12,8 @@ function Card(props) {
     useEffect(() => {
         gsap.to(".v-a", {
             duration: 10,
-            y: "-32px",
+            y: "-80px",
+            transition: "rotate(30deg)",
             scrollTrigger: {
                 trigger: ".card_Service",
                 start: "top center",
@@ -23,7 +24,7 @@ function Card(props) {
         // Next
         gsap.to(".t-a", {
             duration: 10,
-            y: "-4px",
+            y: "-8px",
             scrollTrigger: {
                 trigger: ".card_Service",
                 start: "top center",
@@ -34,7 +35,7 @@ function Card(props) {
         // Next
         gsap.to(".d-a", {
             duration: 10,
-            y: "-2px",
+            y: "4px",
             scrollTrigger: {
                 trigger: ".card_Service",
                 start: "top center",

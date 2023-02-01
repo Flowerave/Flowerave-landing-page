@@ -1,6 +1,8 @@
 .sectionRose {
     padding: 2em;
 
+    margin-bottom: 8em;
+
     // background: var(--attention-background); // DEVELOP
 
     .headerline {
@@ -19,8 +21,10 @@
 
     .roseMetro {
         overflow-x: hidden;
-        width: 100vw;
+        width: 110vw;
         margin-left: -2em;
+
+        transform: rotate(-8deg);
 
         padding: 4em 0;
 
