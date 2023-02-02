@@ -9,14 +9,11 @@ import SectionService from '@/componentns/SectionService/SectionService';
 import SectionNFT from '@/componentns/SectionNFT/SectionNFT';
 import SectionRoadmap from '@/componentns/SectionRoadmap/SectionRoadmap';
 import SectionLabel from '@/componentns/SectionLabel/SectionLabel';
-import { Head } from 'next/document';
 
 export default function Home() {
   return (
     <main>
-      <Head>
-        <title>🌹 Flowerave ・ NFT Collection</title>
-      </Head>
+
       {/* NAVIGATION */}
       <NavigationBar />
 

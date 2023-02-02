@@ -15,6 +15,8 @@ export default function Document() {
       <meta name="msapplication-TileColor" content="#000000"></meta>
       <meta name="theme-color" content="#A2FA32"></meta>
 
+      <title>Flowerave・NFT</title>
+
       {/* BODY */}
 
       <body>
