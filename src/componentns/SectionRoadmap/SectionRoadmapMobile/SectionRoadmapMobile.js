@@ -43,6 +43,10 @@ function SectionRoadmapMobile() {
                 <span className='inData'>2024・Q2</span>
             </div>
         </div>
+        {/* Main Video */}
+        <video className="video_type" loop={'true'} muted={'true'} autoPlay={'true'} playsInline={'true'}>
+            <source src="/type.mp4" type="video/mp4" />
+        </video>
     </div>
   )
 }

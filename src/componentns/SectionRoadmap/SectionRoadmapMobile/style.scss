@@ -6,6 +6,11 @@
         padding: 0 .5em;
         margin-bottom: .5em;
     }
+    .video_type {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
     .mobileRoadmapList {
         padding: 1em;
         display: grid;
