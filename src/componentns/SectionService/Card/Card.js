@@ -52,7 +52,7 @@ function Card(props) {
   return (
         <div className="card_Service">
             <video className='v-a video-colba image' loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
-                <source src="/empty.mp4" />
+                <source src={ props.video } />
             </video>
             <h3 className='t-a title'>{ props.title }</h3>
             <p className='body'>{ props.body }</p>
