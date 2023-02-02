@@ -37,8 +37,7 @@ function SectionService() {
         <Card
             id="4"
             video="cristal_zerowaste.mp4"
-            image="cristal_zerowaste.jpg"
-            title="Ecology & Nature Protection"
+            title="Охрана природы"
             body=""
             description="Flowerave Tickets are cost-efficient, as multiple currencies are accepted, providing more convenience for global customers."
             caption=""
