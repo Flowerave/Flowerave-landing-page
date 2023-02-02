@@ -5,7 +5,7 @@ function SectionArtist() {
   return (
     <div id="sectionArtist" className='sectionArtist'>
         <video className='videoCover' loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
-            <source src="/video1.mp4" />
+            <source src="/video_card.mp4" />
         </video>
         <div className='content'>
             <ComboText
