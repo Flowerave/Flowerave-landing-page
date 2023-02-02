@@ -6,6 +6,7 @@ function SectionService() {
     <div id='sectionService' className='sectionService'>
         <Card
             id="1"
+            video="empty.mp4"
             image="cover.jpg"
             title="Cryptocurrency"
             body=""
@@ -15,6 +16,7 @@ function SectionService() {
         />
         <Card
             id="2"
+            video="empty.mp4"
             image="cover1.jpg"
             title="Data Security & Storage"
             body=""
@@ -24,6 +26,7 @@ function SectionService() {
         />
         <Card
             id="3"
+            video="empty.mp4"
             image="cover.jpg"
             title="Convenience & Experience"
             body=""
@@ -43,6 +46,7 @@ function SectionService() {
         />
         <Card
             id="5"
+            video="empty.mp4"
             image="cover.jpg"
             title="Friends & Communication"
             body=""
@@ -52,6 +56,7 @@ function SectionService() {
         />
         <Card
             id="6"
+            video="empty.mp4"
             image="cover1.jpg"
             title="Tools for Organizers"
             body=""
