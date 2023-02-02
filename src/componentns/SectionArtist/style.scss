@@ -11,7 +11,7 @@
     .videoCover {
         width: 100%;
         height: 80vh;
-        object-fit: cover;
+        object-fit: contain;
     }
     .content {
         margin: 0 auto;
@@ -26,7 +26,11 @@
 /* Mobile */
 @media (max-width: 480px) {
     .sectionArtist {
-        
+
+        .videoCover {
+            object-fit: cover;
+        }
+
         margin-bottom: 2em;
 
         .content {
