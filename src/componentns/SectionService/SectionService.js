@@ -28,7 +28,7 @@ function SectionService() {
             id="3"
             video="empty.mp4"
             image="cover.jpg"
-            title="Convenience & Experience"
+            title="Опыт использования"
             body=""
             description="Flowerave Tickets are much more convenient to travel with, as they are stored online."
             caption=""
