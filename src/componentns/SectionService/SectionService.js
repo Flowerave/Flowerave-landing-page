@@ -8,9 +8,9 @@ function SectionService() {
             id="1"
             video="empty.mp4"
             image="cover.jpg"
-            title="Cryptocurrency"
+            title="Блокчейн TON"
             body=""
-            description="Блокчейн TON"
+            description="Flowerave Tickets are secure and close to impossible to forge, as they are encrypted."
             caption=""
             alt="💎"
         />
