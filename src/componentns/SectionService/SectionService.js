@@ -10,7 +10,7 @@ function SectionService() {
             image="cover.jpg"
             title="Cryptocurrency"
             body=""
-            description="Flowerave Tickets are secure and close to impossible to forge, as they are encrypted."
+            description="Блокчейн Ton"
             caption=""
             alt="💎"
         />
