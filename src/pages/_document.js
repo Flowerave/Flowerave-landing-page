@@ -17,6 +17,9 @@ export default function Document() {
 
       <title>Flowerave・NFT</title>
 
+      <meta property="og:title" content="Flowerave ・ NFT Collection" />
+      <meta property="og:description" content="Описание проекта" />
+
       {/* BODY */}
 
       <body>
