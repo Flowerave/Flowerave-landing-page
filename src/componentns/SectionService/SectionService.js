@@ -10,7 +10,7 @@ function SectionService() {
             image="cover.jpg"
             title="Cryptocurrency"
             body=""
-            description="Блокчейн Ton"
+            description="Блокчейн TON"
             caption=""
             alt="💎"
         />
