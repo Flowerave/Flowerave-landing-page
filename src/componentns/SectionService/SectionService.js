@@ -47,7 +47,7 @@ function SectionService() {
             id="5"
             video="empty.mp4"
             image="cover.jpg"
-            title="Friends & Communication"
+            title="Сообщество"
             body=""
             description="Flowerave Tickets are cost-efficient, as multiple currencies are accepted, providing more convenience for global customers."
             caption=""
