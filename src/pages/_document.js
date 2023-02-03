@@ -15,7 +15,7 @@ export default function Document() {
       <meta name="msapplication-TileColor" content="#000000"></meta>
       <meta name="theme-color" content="#A2FA32"></meta>
 
-      <title>🌹 Flowerave・NFT</title>
+      <title>Flowerave・NFT</title>
       <meta name="description" content="Project created by Culture3k’s team in collaboration with a Moscow based label System108."></meta>
 
       {/* BODY */}
