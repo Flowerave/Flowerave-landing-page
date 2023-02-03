@@ -18,7 +18,7 @@ function SectionService() {
             id="2"
             video="empty.mp4"
             image="cover1.jpg"
-            title="Data Security & Storage"
+            title="Мероприятия"
             body=""
             description="Blockchain allows control and tracking for all tickets, further ensuring no sales above the limit or capacity."
             caption=""
