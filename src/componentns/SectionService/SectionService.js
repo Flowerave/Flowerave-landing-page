@@ -56,7 +56,7 @@ function SectionService() {
         />
         <Card
             id="6"
-            video="cristal_tools"
+            video="cristal_tools.mp4"
             image="cover1.jpg"
             title="Разработка инструментов"
             body=""
