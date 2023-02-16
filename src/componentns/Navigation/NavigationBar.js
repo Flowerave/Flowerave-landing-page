@@ -64,16 +64,16 @@ function NavigationBar(props) {
             <div className='navigationMobileView'>
                 <div className='navigationList'>
                     <button onClick={handleClick} className="buttonTo headerline1">
-                        <Link href={"#sectionRose"}>What's the Rose</Link>
+                        <Link href={"#sectionRose"}>Цветы?</Link>
                     </button>
                     <button onClick={handleClick} className="buttonTo headerline1">
-                        <Link href={"#sectionNFT"}>NFT Collection</Link>
+                        <Link href={"#sectionNFT"}>NFT Коллекция</Link>
                     </button>
                     <button onClick={handleClick} className="buttonTo headerline1">
-                        <Link href={"#sectionArtist"}>Artist Support</Link>
+                        <Link href={"#sectionArtist"}>Артисты</Link>
                     </button>
                     <button onClick={handleClick} className="buttonTo headerline1">
-                        <Link href={"#sectionRoadmap"}>Roadmap</Link>
+                        <Link href={"#sectionRoadmap"}>Мероприятия</Link>
                     </button>
                     <div className='socialLinkMobile'>
                         <div className='socialLink_MediaMobile'>

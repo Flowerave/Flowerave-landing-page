@@ -39,6 +39,7 @@
         width: 100%;
         flex-wrap: wrap;
         justify-content: center;
+
     }
 }
 
@@ -54,6 +55,12 @@
 
         .content {
             padding: 2em .5em;
+        }
+        .sectionButton {
+            .buttonPrimary,
+            .buttonSecondary {
+                width: 75%;
+            }
         }
     }
 

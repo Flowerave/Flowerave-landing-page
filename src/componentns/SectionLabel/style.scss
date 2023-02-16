@@ -17,7 +17,7 @@
     }
     .content {
         margin: 0 auto;
-        padding: 4em 2em;
+        padding: 4em 2em 1em 2em;
 
         display: flex;
         flex-direction: column;
@@ -56,5 +56,11 @@
     }
     .content {
         padding: 2em .5em;
+    }
+    .sectionButton {
+        .buttonPrimary,
+        .buttonSecondary {
+            width: 75%;
+        }
     }
 }
