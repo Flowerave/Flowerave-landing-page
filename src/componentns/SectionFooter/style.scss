@@ -7,6 +7,11 @@
     justify-content: space-between;
     align-items: center;
 
+    .footerCaption {
+        font-size: .9em;
+        color: var(--txt-tertiary-color);
+    }
+
     .tonLogo {
         transition: var(--element-in);
 

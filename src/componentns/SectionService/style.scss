@@ -9,6 +9,28 @@
     margin-bottom: 4em;
 }
 
+/* Web */
+@media (max-width: 1200px) {
+    .sectionService {
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(1, 1fr); 
+        grid-column-gap: 0;
+        grid-row-gap: 2em;
+        padding: 2em 1em;
+    }
+}
+
+/* Tablet */
+@media (max-width: 800px) {
+    .sectionService {
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(1, 1fr); 
+        grid-column-gap: 0;
+        grid-row-gap: 2em;
+        padding: 2em 1em;
+    }
+}
+
 /* Mobile */
 @media (max-width: 480px) {
     .sectionService {

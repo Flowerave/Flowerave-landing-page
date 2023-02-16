@@ -1,5 +1,8 @@
 import React from 'react';
 import ComboText from '../Combo/ComboText';
+import ButtonPrimary from '../Button/ButtonPrimary/ButtonPrimary';
+import ButtonSecondary from '../Button/ButtonSecondary/ButtonSecondary';
+import Link from 'next/link';
 
 function SectionArtist() {
   return (
@@ -9,11 +12,17 @@ function SectionArtist() {
         </video>
         <div className='content'>
             <ComboText
-                title="Flowerave’s first collection is a thousand ‘Rose’ NFT’s. The NFT is a key to authorise in the bot."
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod urna rhoncus, ultricies mi sit amet, interdum purus. Cras vel mauris justo. Integer ac consectetur nisl. Fusce lobortis urna tellus, eu vestibulum arcu lobortis ac."
-                primaryBtn="Кнопка"
-                secondaryBtn="Кнопка"
+                title="Артисты"
+                description="Резиденты System 108 регулярно принимают участие в наиболее интересных музыкальных ивентах по всему миру, а в их число входят Errortica, Kito Jempere, Kovyazin D, Lipelis, Maksimovna, Mashkov, Philipp Gorbachev, Simple Symmetry, Sputnik и The Dawless."
             />
+            <div className='sectionButton'>
+              <button className='buttonPrimary btn_Primary'>
+                  <Link className='text' href="https://music.yandex.com/users/radugadiscoclub/playlists/1000?utm_medium=copy_link" target="_blank">Послушать артистов</Link>
+              </button>
+              <button className='buttonSecondary btn_Secondary'>
+                  <Link className='text' href="https://t.me/radugasuperclub" target="_blank">Подробнее</Link>
+              </button>
+            </div>
         </div>
     </div>
   )

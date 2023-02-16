@@ -32,6 +32,33 @@
 
         border-radius: .5em;
     }
+
+    .sectionButton {
+        margin: 0 auto;
+        display: flex;
+        gap: 1em;
+    }
+}
+
+/* Tablet */
+@media (max-width: 800px) {
+    .sectionNFT {
+        padding: 1em;
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 2fr;
+        grid-column-gap: 0;
+        grid-row-gap: 2em;
+
+        .video-colba {
+            height: 50vh;
+        }  
+
+        .content {
+            padding: 1em .5em;
+        }
+    }
 }
 
 /* Mobile */

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import ComboText from '../Combo/ComboText';
 
@@ -13,10 +14,18 @@ function SectionNFT() {
                 title="NFT - это ключ для авторизации в эко-системе приложений Flowerave"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod urna rhoncus, ultricies mi sit amet, interdum purus. Cras vel mauris justo. Integer ac consectetur nisl. Fusce lobortis urna tellus, eu vestibulum arcu lobortis ac."
                 primaryBtn="Маркетплейс"
-                linkBtnPrimary="https://ya.ru"
-                secondaryBtn="Сообщество"
             />
+
+            <div className='sectionButton'>
+                <button className='buttonPrimary btn_Primary'>
+                    <Link className='text' href="https://getgems.io" target="_blank">Маркетплейс</Link>
+                </button>
+                <button className='buttonSecondary btn_Secondary'>
+                    <Link className='text' href="https://t.me/flowerave" target="_blank">Канал проекта</Link>
+                </button>
+            </div>
         </div>
+
     </div>
   )
 }

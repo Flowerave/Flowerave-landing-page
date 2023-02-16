@@ -20,6 +20,20 @@
         display: flex;
         flex-direction: column;
         gap: 2em;
+
+        max-width: 600px;
+
+        .comboTextHeaderline {
+            font-size: 2em;
+        }
+        .comboTextDescription {
+            line-height: 140%;
+        }
+    }
+    .sectionButton {
+        margin: 0 auto;
+        display: flex;
+        gap: 1em;
     }
 }
 

@@ -60,12 +60,15 @@ function SectionMain() {
         <div className='content'>
             <h1 className='headerline-action headerline headerline2'>Unlock Your Possibilities with Flowerave: TON Blockchain Technology and NFTs!</h1>
             <div className='row-action row'>
-                <Link href="https://getgems.io" target="_blank">
-                    <ButtonPrimary body="Buy NFT" />
-                </Link>
-                <Link href={'https://t.me/demo_flowerave_bot'} target="_blank">
-                    <ButtonSecondary body="Go βeta" />
-                </Link>
+
+            <div className='sectionButton'>
+                <button className='buttonPrimary btn_Primary'>
+                    <Link className='text' href="https://getgems.io" target="_blank">Купить NFT</Link>
+                </button>
+                <button className='buttonSecondary btn_Secondary'>
+                    <Link className='text' href="https://t.me/Flowerave_Quiz_bot" target="_blank">Go βeta</Link>
+                </button>
+            </div>
             </div>
         </div>
     </div>

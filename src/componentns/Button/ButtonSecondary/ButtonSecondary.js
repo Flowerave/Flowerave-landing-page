@@ -1,9 +1,10 @@
+import Link from 'next/link';
 import React from 'react';
 
 function ButtonSecondary(props) {
   return (
     <button className='buttonSecondary btn_Secondary'>
-        <span className='text'>{props.body}</span>
+      <Link className='text' href={props.href}>{props.body}</Link>
     </button>
   )
 }
