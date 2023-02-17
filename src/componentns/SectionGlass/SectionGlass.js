@@ -17,7 +17,7 @@ function SectionGlass() {
         gsap.to(".sectionGlass_glass1", {
             duration: 1,
             y: "-8em",
-            rotate: "-4deg",
+            rotate: "-30deg",
             transformOrigin: "top",
             scrollTrigger: {
                 trigger: ".sectionGlass",
