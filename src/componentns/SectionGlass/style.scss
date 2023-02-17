@@ -2,22 +2,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4em .5em .5em .5em;
+    padding: 2em .5em .5em .5em;
     overflow: hidden;
 
+    min-height: 600px;
+
     .sectionGlass_glass1 {
-        width: 33vh;
-        height: 33vh;
+        width: 28vh;
+        height: 28vh;
     }
     .sectionGlass_glass2 {
-        width: 40vh;
-        height: 40vh;
+        width: 33vh;
+        height: 33vh;
 
         padding-top: 8em;
     }
     .sectionGlass_glass3 {
-        width: 33vh;
-        height: 33vh;
+        width: 20vh;
+        height: 20vh;
     }
 
 }

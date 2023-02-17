@@ -30,7 +30,6 @@ function SectionGlass() {
 
         gsap.to(".sectionGlass_glass2", {
             duration: 1,
-            opacity: 0,
             y: "4em",
             rotate: "10deg",
             transformOrigin: "top",
