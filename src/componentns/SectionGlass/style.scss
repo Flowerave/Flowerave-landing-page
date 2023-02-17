@@ -10,16 +10,22 @@
     .sectionGlass_glass1 {
         width: 28vh;
         height: 28vh;
+
+        z-index: 3;
     }
     .sectionGlass_glass2 {
         width: 33vh;
         height: 33vh;
 
-        padding-top: 8em;
+        z-index: 3;
+
+        padding-top: 4em;
     }
     .sectionGlass_glass3 {
         width: 20vh;
         height: 20vh;
+        z-index: 3;
+        z-index: 3;
     }
 
 }
