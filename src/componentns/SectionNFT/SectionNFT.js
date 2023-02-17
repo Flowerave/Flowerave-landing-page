@@ -2,7 +2,30 @@ import Link from 'next/link';
 import React from 'react';
 import ComboText from '../Combo/ComboText';
 
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { useEffect } from "react";
+
+gsap.registerPlugin(ScrollTrigger);
+
 function SectionNFT() {
+
+  useEffect(() => {
+    gsap.to(".video-colba", {
+        duration: 1,
+        y: "-4em",
+        transformOrigin: "top",
+        scale:"1.2",
+        scrollTrigger: {
+            trigger: ".sectionNFT",
+            start: "top center",
+            end: "bottom ",
+            scrub: 3,
+    },
+    });
+
+  }, []);
+
   return (
     <div id='sectionNFT' className='sectionNFT'>
         {/* Main Video */}

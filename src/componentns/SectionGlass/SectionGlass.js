@@ -53,7 +53,7 @@ function SectionGlass() {
         },
         });
 
-        }, []);
+    }, []);
 
   return (
     <div className='sectionGlass'>

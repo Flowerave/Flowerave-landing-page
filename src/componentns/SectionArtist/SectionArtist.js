@@ -1,10 +1,9 @@
 import React from 'react';
 import ComboText from '../Combo/ComboText';
-import ButtonPrimary from '../Button/ButtonPrimary/ButtonPrimary';
-import ButtonSecondary from '../Button/ButtonSecondary/ButtonSecondary';
 import Link from 'next/link';
 
 function SectionArtist() {
+
   return (
     <div id="sectionArtist" className='sectionArtist'>
         <video className='videoCover' loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
