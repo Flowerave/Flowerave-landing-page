@@ -1,7 +1,5 @@
 import Link from 'next/link';
 import React from 'react';
-import ButtonPrimary from '../Button/ButtonPrimary/ButtonPrimary';
-import ButtonSecondary from '../Button/ButtonSecondary/ButtonSecondary';
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";

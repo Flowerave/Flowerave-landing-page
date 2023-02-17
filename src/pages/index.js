@@ -8,6 +8,7 @@ import SectionRose from '@/componentns/SectionRose/SectionRose';
 import SectionService from '@/componentns/SectionService/SectionService';
 import SectionNFT from '@/componentns/SectionNFT/SectionNFT';
 import SectionLabel from '@/componentns/SectionLabel/SectionLabel';
+import SectionGlass from '@/componentns/SectionGlass/SectionGlass';
 
 export default function Home() {
   return (
@@ -19,10 +20,11 @@ export default function Home() {
       {/* SECTION */}
       <SectionMain    />
       <SectionRose    />
+      <SectionGlass   />
       <SectionNFT     />
       <SectionService />
       <SectionArtist  />
-      <SectionLabel />
+      <SectionLabel   />
 
 
       {/* FOOTER */}

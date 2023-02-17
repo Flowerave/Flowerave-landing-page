@@ -1,0 +1,31 @@
+.sectionGlass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em;
+    overflow: hidden;
+
+    .sectionGlass_glass1 {
+        width: 33vh;
+        height: 33vh;
+    }
+    .sectionGlass_glass2 {
+        width: 40vh;
+        height: 40vh;
+
+        padding-top: 8em;
+    }
+    .sectionGlass_glass3 {
+        width: 33vh;
+        height: 33vh;
+    }
+
+}
+
+
+/* Tablet */
+@media (min-width: 800px) {
+    .sectionGlass {
+        display: none;
+    }
+}
