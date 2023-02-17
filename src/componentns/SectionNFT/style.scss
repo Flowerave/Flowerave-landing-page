@@ -21,6 +21,8 @@
         transform: none;
         opacity: 1;
         filter: none;
+
+        z-index: 1;
     }
     .content {
         padding: 2em;
@@ -31,6 +33,8 @@
         align-items: center;
 
         border-radius: .5em;
+
+        z-index: 2;
     }
 
     .sectionButton {

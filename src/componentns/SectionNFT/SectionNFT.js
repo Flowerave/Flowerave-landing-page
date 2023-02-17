@@ -11,16 +11,16 @@ gsap.registerPlugin(ScrollTrigger);
 function SectionNFT() {
 
   useEffect(() => {
-    gsap.to(".video-colba", {
+    gsap.to(".video-colba-gsap", {
         duration: 1,
         y: "-4em",
-        transformOrigin: "top",
-        scale:"1.2",
+        transformOrigin: "center",
+        scale:"1.4",
         scrollTrigger: {
             trigger: ".sectionNFT",
             start: "top center",
             end: "bottom ",
-            scrub: 3,
+            scrub: 6,
     },
     });
 
@@ -29,7 +29,7 @@ function SectionNFT() {
   return (
     <div id='sectionNFT' className='sectionNFT'>
         {/* Main Video */}
-        <video className="video-colba" loop={'true'} muted={'true'} autoPlay={'true'} playsInline={'true'}>
+        <video className="video-colba-gsap video-colba" loop={'true'} muted={'true'} autoPlay={'true'} playsInline={'true'}>
             <source src="/colba.mp4" type="video/mp4" />
         </video>
         <div className='content'>
