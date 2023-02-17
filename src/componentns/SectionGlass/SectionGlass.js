@@ -16,7 +16,6 @@ function SectionGlass() {
     useEffect(() => {
         gsap.to(".sectionGlass_glass1", {
             duration: 1,
-            opacity: 0,
             y: "-8em",
             rotate: "-4deg",
             transformOrigin: "top",
@@ -24,26 +23,25 @@ function SectionGlass() {
                 trigger: ".sectionGlass",
                 start: "top center",
                 end: "bottom ",
-                scrub: 2,
+                scrub: 1,
         },
         });
 
         gsap.to(".sectionGlass_glass2", {
             duration: 1,
-            y: "4em",
+            y: "8em",
             rotate: "10deg",
             transformOrigin: "top",
             scrollTrigger: {
                 trigger: ".sectionGlass",
                 start: "top center",
                 end: "bottom ",
-                scrub: 2,
+                scrub: 3,
         },
         });
 
         gsap.to(".sectionGlass_glass3", {
             duration: 1,
-            opacity: 0,
             y: "-5em",
             rotate: "90deg",
             transformOrigin: "top",
@@ -51,7 +49,7 @@ function SectionGlass() {
                 trigger: ".sectionGlass",
                 start: "top center",
                 end: "bottom ",
-                scrub: 2,
+                scrub: 3,
         },
         });
 
