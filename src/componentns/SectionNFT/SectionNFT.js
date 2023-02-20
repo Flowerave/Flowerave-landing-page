@@ -15,7 +15,7 @@ function SectionNFT() {
         duration: 1,
         y: "-4em",
         transformOrigin: "center",
-        scale:"1.4",
+        scale:"1.2",
         scrollTrigger: {
             trigger: ".sectionNFT",
             start: "top center",

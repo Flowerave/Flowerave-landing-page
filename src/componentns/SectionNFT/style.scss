@@ -79,11 +79,12 @@
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: 2fr;
         grid-column-gap: 0;
-        grid-row-gap: 2em;
+        grid-row-gap: 1em;
 
         .video-colba {
             height: 80vh;
             object-fit: cover;
+            max-width: 95vw;
         }  
 
         .content {
