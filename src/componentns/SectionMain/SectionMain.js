@@ -52,7 +52,7 @@ function SectionMain() {
     <div id='sectionMain' className='sectionMain'>
         {/* Main Video */}
         <video className="video" loop={'true'} muted={'true'} autoPlay={'true'} playsInline={'true'}>
-            <source src="/video.mp4" type="video/mp4" />
+            <source src="/MainVideo.mp4" type="video/mp4" />
         </video>
         {/* Content */}
         <div className='content'>
