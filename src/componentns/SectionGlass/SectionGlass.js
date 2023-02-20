@@ -46,9 +46,9 @@ function SectionGlass() {
 
         gsap.to(".sectionGlass_glass3", {
             duration: 1,
-            y: "-5em",
+            y: "-3em",
             transformOrigin: "center",
-            scale:"1.4",
+            scale:"1.2",
             rotate: "90deg",
             transformOrigin: "top",
             scrollTrigger: {
