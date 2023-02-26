@@ -85,6 +85,9 @@ function NavigationBar(props) {
                             <Link href={'https://github.com/Flowerave'} target="_blank">GitHub</Link>
                             <Link href={'https://apple.com'} target="_blank">Notion</Link>
                         </div>
+                        <div className='socialLink_DevelopMobile'>
+                            <Link href={'https://b447-2a00-1370-81aa-e1-4963-644b-13d4-289.eu.ngrok.io'} target="_blank">Flowerave ID</Link>
+                        </div>
                 </div>
                 </div>
                 <video className="tube" loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'} poster="/tube_0.jpg">
