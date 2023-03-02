@@ -23,7 +23,7 @@ export default function Home() {
       <SectionGlass   />
       <SectionNFT     />
       {/* <SectionService /> */}
-      <SectionArtist  />
+      {/* <SectionArtist  /> */}
       <SectionLabel   />
 
 

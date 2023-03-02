@@ -11,12 +11,12 @@ function NavigationBar(props) {
     
 
     const [isShown, setIsShown] = useState(false);
-    const [buttonText, setButtonText] = useState('Navigation');
+    const [buttonText, setButtonText] = useState('Меню');
 
     const handleClick = event => {
     // 👇️ toggle shown state
     setIsShown(current => !current);
-    setButtonText('Navigation');
+    setButtonText('Меню');
     }
     
 
