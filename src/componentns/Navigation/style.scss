@@ -48,19 +48,18 @@
 
         font-size: .8em;
 
-
-        .dot {
-            width: 1px;
-            height: 1em;
-            border-radius: 1em;
-            background: var(--darkgray);
+        .socialLink_Media {
+            .socialLink_MediaIcon {
+                display: flex;
+                align-items: center;
+                gap: .5em;
+            }
         }
-
         .socialLink_Media,
         .socialLink_Develop {
             display: flex;
             align-items: center;
-            gap: 1em;
+            gap: 2em;
 
             a {
                 font-weight: 500;
@@ -69,6 +68,17 @@
                 &:hover {
                     color: var(--link-primary-color);
                 }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .nav {
+        .socialLink {
+            .socialLink_Media,
+            .socialLink_Develop {
+                gap: 1em;
             }
         }
     }
@@ -85,6 +95,9 @@
 
         .navigationList {
             gap: 1em;
+            .buttonTo {
+                font-size: 1.5em;
+            }
         }
 
         a {
@@ -127,6 +140,12 @@
                 flex-direction: column;
                 gap: .75em;
                 transition: var(--element-in);
+
+                .socialLink_MediaIcon {
+                    display: flex;
+                    align-items: center;
+                    gap: 1em;
+                }
 
                 a {
                     color: var(--lightgray);

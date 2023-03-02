@@ -1,6 +1,12 @@
-import Link from 'next/link'
-import React from 'react'
-import ComboText from '../Combo/ComboText'
+import Link from 'next/link';
+import React from 'react';
+import ComboText from '../Combo/ComboText';
+
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { useEffect } from "react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 function SectionLabel() {
   return (
@@ -18,7 +24,7 @@ function SectionLabel() {
         <div className='content'>
             <ComboText
                 title="Мероприятия"
-                description="Российский музыкальный лейбл, букинг- и ивент-агентство основанное в 2015 Евгением Машковым. Его основной идеей является свобода самовыражения и тесное переплетение различных направлений современного искусства, включая моду, живопись, видео-арт и, конечно, электронную музыку."
+                description="NFT-цветок&nbsp;&mdash; это не&nbsp;просто цифровые арт-объекты, которыми приятно владеть, но&nbsp;и&nbsp;своего рода карты доступа в&nbsp;закрытый клуб с&nbsp;особыми преференциями, действующими на&nbsp;мероприятиях партнерской сети."
             />
         </div>
 
