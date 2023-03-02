@@ -81,9 +81,6 @@ function NavigationBar(props) {
                         <Link href={"#sectionNFT"}>NFT Коллекция</Link>
                     </button>
                     <button onClick={handleClick} className="buttonTo headerline1">
-                        <Link href={"#sectionArtist"}>Артисты</Link>
-                    </button>
-                    <button onClick={handleClick} className="buttonTo headerline1">
                         <Link href={"#sectionRoadmap"}>Мероприятия</Link>
                     </button>
                     <div className='socialLinkMobile'>
