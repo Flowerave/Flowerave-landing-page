@@ -75,7 +75,7 @@ function NavigationBar(props) {
             <div className='navigationMobileView'>
                 <div className='navigationList'>
                     <button onClick={handleClick} className="buttonTo headerline1">
-                        <Link href={"#sectionRose"}>Цветы?</Link>
+                        <Link href={"#sectionRose"}>Что за цветы?</Link>
                     </button>
                     <button onClick={handleClick} className="buttonTo headerline1">
                         <Link href={"#sectionNFT"}>NFT Коллекция</Link>
