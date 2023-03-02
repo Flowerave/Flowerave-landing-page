@@ -56,15 +56,15 @@ function SectionMain() {
         </video>
         {/* Content */}
         <div className='content'>
-            <h1 className='headerline-action headerline headerline2'>Unlock Your Possibilities with Flowerave: TON Blockchain Technology and NFTs!</h1>
+            <h1 className='headerline-action headerline headerline2'>Раскрой возможности Web&nbsp;3.0 вместе с&nbsp;Flowerave</h1>
             <div className='row-action row'>
 
             <div className='sectionButton'>
                 <button className='buttonPrimary btn_Primary'>
-                    <Link className='text' href="https://getgems.io" target="_blank">Купить NFT</Link>
+                    <Link className='text' href="https://getgems.io/collection/EQDI0ByItZDTy0mOAknepeENARaemaTxM5Ti7O7TexI98o0J" target="_blank">Купить NFT</Link>
                 </button>
                 <button className='buttonSecondary btn_Secondary'>
-                    <Link className='text' href="https://t.me/Flowerave_Quiz_bot" target="_blank">Go βeta</Link>
+                    <Link className='text' href="https://t.me/Flowerave_Quiz_bot" target="_blank">Го βeta</Link>
                 </button>
             </div>
             </div>

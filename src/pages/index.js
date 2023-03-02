@@ -22,7 +22,7 @@ export default function Home() {
       <SectionRose    />
       <SectionGlass   />
       <SectionNFT     />
-      <SectionService />
+      {/* <SectionService /> */}
       <SectionArtist  />
       <SectionLabel   />
 

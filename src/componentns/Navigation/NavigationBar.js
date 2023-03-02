@@ -23,7 +23,6 @@ function NavigationBar(props) {
     function Box() {
         return (
             <div className='navMobile'>
-                <h2>dasd</h2>
             </div>
         );
     }
@@ -41,14 +40,9 @@ function NavigationBar(props) {
 
         <div className='socialLink'>
             <div className='socialLink_Media'>
-                <Link href={'https://apple.com'} target="_blank">Instagram</Link>
-                <Link href={'https://apple.com'} target="_blank">Facebook</Link>
+                <Link href={'https://t.me/flowerave'} target="_blank">Telegram</Link>
                 <Link href={'https://twitter.com/flowerave_nft'} target="_blank">Twitter</Link>
-            </div>
-            <span className='dot'></span>
-            <div className='socialLink_Develop'>
-                <Link href={'https://github.com/Flowerave'} target="_blank">GitHub</Link>
-                <Link href={'https://apple.com'} target="_blank">Notion</Link>
+                <Link href={'https://getgems.io/collection/EQDI0ByItZDTy0mOAknepeENARaemaTxM5Ti7O7TexI98o0J'} target="_blank">Getgems</Link>
             </div>
         </div>
 
@@ -77,16 +71,9 @@ function NavigationBar(props) {
                     </button>
                     <div className='socialLinkMobile'>
                         <div className='socialLink_MediaMobile'>
-                            <Link href={'https://apple.com'} target="_blank">Instagram</Link>
-                            <Link href={'https://apple.com'} target="_blank">Facebook</Link>
+                            <Link href={'https://t.me/flowerave'} target="_blank">Telegram</Link>
                             <Link href={'https://twitter.com/flowerave_nft'} target="_blank">Twitter</Link>
-                        </div>
-                        <div className='socialLink_DevelopMobile'>
-                            <Link href={'https://github.com/Flowerave'} target="_blank">GitHub</Link>
-                            <Link href={'https://apple.com'} target="_blank">Notion</Link>
-                        </div>
-                        <div className='socialLink_DevelopMobile'>
-                            <Link href={'https://b447-2a00-1370-81aa-e1-4963-644b-13d4-289.eu.ngrok.io'}>Flowerave ID</Link>
+                            <Link href={'https://getgems.io/collection/EQDI0ByItZDTy0mOAknepeENARaemaTxM5Ti7O7TexI98o0J'} target="_blank">Getgems</Link>
                         </div>
                 </div>
                 </div>

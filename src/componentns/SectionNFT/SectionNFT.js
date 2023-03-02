@@ -34,14 +34,14 @@ function SectionNFT() {
         </video>
         <div className='content'>
             <ComboText
-                title="NFT - это ключ для авторизации в эко-системе приложений Flowerave"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod urna rhoncus, ultricies mi sit amet, interdum purus. Cras vel mauris justo. Integer ac consectetur nisl. Fusce lobortis urna tellus, eu vestibulum arcu lobortis ac."
+                title="Ключ к&nbsp;экосистеме Flowerave"
+                description="Будьте с&nbsp;нами, и&nbsp;скоро мы&nbsp;начнём открывать для вас все новые и&nbsp;новые двери в&nbsp;мир музыки, искусства и&nbsp;технологий."
                 primaryBtn="Маркетплейс"
             />
 
             <div className='sectionButton'>
                 <button className='buttonPrimary btn_Primary'>
-                    <Link className='text' href="https://getgems.io" target="_blank">Маркетплейс</Link>
+                    <Link className='text' href="https://getgems.io/collection/EQDI0ByItZDTy0mOAknepeENARaemaTxM5Ti7O7TexI98o0J" target="_blank">Маркетплейс</Link>
                 </button>
                 <button className='buttonSecondary btn_Secondary'>
                     <Link className='text' href="https://t.me/flowerave" target="_blank">Канал проекта</Link>
