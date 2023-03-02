@@ -5,9 +5,16 @@ import ComboText from '../Combo/ComboText'
 function SectionLabel() {
   return (
     <div id="sectionLabel" className='sectionLabel'>
-        <video className='videoCover' loop={'true'} muted={'true'} autoplay={'true'} playsinline={'true'}>
-            <source src="/video.mp4" />
-        </video>
+        <div class="labelPhoto">
+            <div class="labelPhoto1"> </div>
+            <div class="labelPhoto2"> </div>
+            <div class="labelPhoto3"> </div>
+            <div class="labelPhoto4"> </div>
+            <div class="labelPhoto5"> </div>
+            <div class="labelPhoto6"> </div>
+            <div class="labelPhoto7"> </div>
+            <div class="labelPhoto8"> </div>
+        </div>
         <div className='content'>
             <ComboText
                 title="Мероприятия"
